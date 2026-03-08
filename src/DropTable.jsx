@@ -29,15 +29,53 @@ for (const npc of npcsRaw) {
 
   if (!seenNames.has(npc.name)) {
     seenNames.add(npc.name);
-    npcList.push({
-      name: npc.name,
-      id: npc.id,
-      tableKey: key
-    });
+    npcList.push({ name: npc.name, id: npc.id, tableKey: key });
   }
 }
 
 npcList.sort((a, b) => a.name.localeCompare(b.name));
+
+/* ------------------------------------------------ */
+/* SUB-TABLE FINGERPRINTING                         */
+/* After Jackson dump, named sub-tables are inlined */
+/* We identify them by roll + ordered (id, amount)  */
+/* ------------------------------------------------ */
+
+const NAMED_SUBTABLES = [
+  "rare_drop_table",
+  "gem_drop_table",
+  "mega_rare_drop_table",
+  "herb_drop_table",
+  "herb_drop_table_chaos_druid",
+  "useful_herb_drop_table",
+  "talisman_drop_table",
+  "rare_seed_drop_table",
+  "uncommon_seed_drop_table",
+  "allotment_seed_drop_table",
+  "tree_herb_seed_drop_table",
+];
+
+function tableFingerprint(node) {
+  if (!node?.drops) return null;
+  const drops = node.drops
+    .filter(d => d.id && d.id !== "nothing")
+    .map(d => `${d.id}:${d.amount?.start ?? 1}`)
+    .join(",");
+  return `${node.roll ?? 1}|${node.type ?? "First"}|${drops}`;
+}
+
+// Build fingerprint -> name map at module load time
+const fingerprintToName = new Map();
+for (const name of NAMED_SUBTABLES) {
+  const table = dropTablesRaw[name];
+  if (!table) continue;
+  const fp = tableFingerprint(table);
+  if (fp) fingerprintToName.set(fp, name);
+}
+
+function identifyInlineTable(node) {
+  return fingerprintToName.get(tableFingerprint(node)) ?? null;
+}
 
 /* ------------------------------------------------ */
 /* FLATTEN VOID DROP TABLES                         */
@@ -48,7 +86,7 @@ function flattenTable(node, cumProb = 1, source = "main", depth = 0) {
 
   const results = [];
   const type = node.type ?? "First";
-  const roll = node.roll ?? 1;
+  const roll = Math.max(node.roll ?? 1, 1);
 
   let count = 0;
 
@@ -68,19 +106,19 @@ function flattenTable(node, cumProb = 1, source = "main", depth = 0) {
 
     const childProb = cumProb * prob;
 
-    /* nested inline table */
+    /* inline sub-table — check if it's a known named table */
     if (drop.drops) {
-      results.push(...flattenTable(drop, childProb, source, depth + 1));
+      const name = identifyInlineTable(drop);
+      results.push(...flattenTable(drop, childProb, name ?? source, depth + 1));
       continue;
     }
 
-    /* referenced table */
+    /* referenced table (non-inlined) */
     if (drop.table) {
       const key = drop.table.endsWith("_drop_table")
         ? drop.table
         : drop.table + "_drop_table";
-
-      const table = dropTablesRaw[key];
+      const table = dropTablesRaw[key] ?? dropTablesRaw[drop.table];
       if (table) {
         results.push(...flattenTable(table, childProb, drop.table, depth + 1));
       }
@@ -88,11 +126,9 @@ function flattenTable(node, cumProb = 1, source = "main", depth = 0) {
     }
 
     /* item drop */
-
     if (!drop.id || drop.id === "nothing") continue;
 
     const item = itemByStringId[drop.id];
-
     const amountMin = drop.amount?.start ?? drop.min ?? drop.amount ?? 1;
     const amountMax = drop.amount?.end ?? drop.max ?? drop.amount ?? 1;
 
@@ -105,7 +141,7 @@ function flattenTable(node, cumProb = 1, source = "main", depth = 0) {
       amountMax,
       prob: childProb,
       table: source,
-      noted: drop.id.endsWith("_noted")
+      noted: drop.id.endsWith("_noted"),
     });
   }
 
@@ -116,39 +152,45 @@ function flattenTable(node, cumProb = 1, source = "main", depth = 0) {
 /* GROUP DROPS                                      */
 /* ------------------------------------------------ */
 
-function groupDrops(drops) {
+// Maps source table name -> section label (null = main)
+const SECTION_LABELS = {
+  rare_drop_table:             "Rare drop table",
+  gem_drop_table:              "Gem drop table",
+  mega_rare_drop_table:        "Mega rare drop table",
+  herb_drop_table:             "Herb drop table",
+  herb_drop_table_chaos_druid: "Herb drop table",
+  useful_herb_drop_table:      "Herb drop table",
+  talisman_drop_table:         "Talisman drop table",
+  rare_seed_drop_table:        "Seed drop table",
+  uncommon_seed_drop_table:    "Seed drop table",
+  allotment_seed_drop_table:   "Seed drop table",
+  tree_herb_seed_drop_table:   "Seed drop table",
+};
 
-  const groups = {
-    always: [],
-    main: [],
-    rare: [],
-    gem: [],
-    mega: []
-  };
+// Section display order
+const SECTION_ORDER = [
+  "always",
+  "main",
+  "Herb drop table",
+  "Seed drop table",
+  "Talisman drop table",
+  "Rare drop table",
+  "Gem drop table",
+  "Mega rare drop table",
+];
+
+function groupDrops(drops) {
+  const groups = {};
 
   for (const drop of drops) {
-
+    let key;
     if (drop.prob >= 1) {
-      groups.always.push(drop);
-      continue;
+      key = "always";
+    } else {
+      key = SECTION_LABELS[drop.table] ?? "main";
     }
-
-    if (drop.table === "rare_drop_table") {
-      groups.rare.push(drop);
-      continue;
-    }
-
-    if (drop.table === "gem_drop_table") {
-      groups.gem.push(drop);
-      continue;
-    }
-
-    if (drop.table === "mega_rare_drop_table") {
-      groups.mega.push(drop);
-      continue;
-    }
-
-    groups.main.push(drop);
+    if (!groups[key]) groups[key] = [];
+    groups[key].push(drop);
   }
 
   return groups;
@@ -184,18 +226,14 @@ function formatGp(n) {
 /* ------------------------------------------------ */
 
 function DropSection({ title, drops }) {
-
-  if (!drops.length) return null;
+  if (!drops?.length) return null;
 
   return (
     <div className="mb-6">
-
       <div className="bg-zinc-800 px-3 py-2 border border-zinc-700 rounded-t text-sm font-semibold text-zinc-300">
         {title}
       </div>
-
       <table className="w-full text-sm border border-t-0 border-zinc-700 bg-zinc-900">
-
         <thead>
           <tr className="border-b border-zinc-700 text-xs text-zinc-400">
             <th className="px-3 py-2 text-left">Item</th>
@@ -204,56 +242,27 @@ function DropSection({ title, drops }) {
             <th className="px-3 py-2 text-left">Price</th>
           </tr>
         </thead>
-
         <tbody>
-
           {drops.map((drop, i) => (
-
             <tr key={i} className="border-t border-zinc-800 hover:bg-zinc-800">
-
               <td className="px-3 py-2 text-zinc-100">
-
                 {drop.name}
-
-                {drop.noted &&
-                  <span className="ml-1 text-xs text-zinc-500">(noted)</span>
-                }
-
-                {drop.examine &&
-                  <span className="ml-2 text-xs text-zinc-600 italic">
-                    {drop.examine}
-                  </span>
-                }
-
+                {drop.noted && <span className="ml-1 text-xs text-zinc-500">(noted)</span>}
+                {drop.examine && <span className="ml-2 text-xs text-zinc-600 italic">{drop.examine}</span>}
               </td>
-
               <td className="px-3 py-2 text-zinc-400">
-
-                {drop.amountMin === drop.amountMax
-                  ? drop.amountMin
-                  : `${drop.amountMin}–${drop.amountMax}`}
-
+                {drop.amountMin === drop.amountMax ? drop.amountMin : `${drop.amountMin}–${drop.amountMax}`}
               </td>
-
-              <td
-                className="px-3 py-2 font-mono text-xs"
-                style={{ color: rarityColor(drop.prob) }}
-              >
+              <td className="px-3 py-2 font-mono text-xs" style={{ color: rarityColor(drop.prob) }}>
                 {rarityLabel(drop.prob)}
               </td>
-
               <td className="px-3 py-2 text-zinc-500 text-xs">
                 {formatGp(drop.price)}
               </td>
-
             </tr>
-
           ))}
-
         </tbody>
-
       </table>
-
     </div>
   );
 }
@@ -263,101 +272,70 @@ function DropSection({ title, drops }) {
 /* ------------------------------------------------ */
 
 export default function DropTable() {
-
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState(null);
 
   const filtered = useMemo(() => {
-
     const q = query.trim().toLowerCase();
     if (!q) return [];
-
-    return npcList
-      .filter(n => n.name.toLowerCase().includes(q))
-      .slice(0, 80);
-
+    return npcList.filter(n => n.name.toLowerCase().includes(q)).slice(0, 80);
   }, [query]);
 
   const groups = useMemo(() => {
-
     if (!selected) return null;
-
     const raw = flattenTable(dropTablesRaw[selected.tableKey]);
     return groupDrops(raw);
-
   }, [selected]);
 
   return (
-
     <div>
 
       {/* SEARCH */}
-
       <div className="relative max-w-sm mb-4">
-
         <input
           value={query}
-          onChange={(e) => {
-            setQuery(e.target.value);
-            setSelected(null);
-          }}
+          onChange={(e) => { setQuery(e.target.value); setSelected(null); }}
           placeholder="Search NPC name..."
           className="w-full bg-zinc-900 border border-zinc-700 rounded px-3 py-2 text-sm text-zinc-100 outline-none focus:border-zinc-500"
         />
-
       </div>
 
       {/* NPC LIST */}
-
       {!selected && query && (
-
         <div className="flex flex-wrap gap-2">
-
           {filtered.map(npc => (
-
-            <button
-              key={npc.id}
-              onClick={() => setSelected(npc)}
-              className="px-3 py-1.5 bg-zinc-900 border border-zinc-700 rounded text-sm text-zinc-300 hover:border-amber-500 hover:text-amber-400"
-            >
+            <button key={npc.id} onClick={() => setSelected(npc)}
+              className="px-3 py-1.5 bg-zinc-900 border border-zinc-700 rounded text-sm text-zinc-300 hover:border-amber-500 hover:text-amber-400">
               {npc.name}
             </button>
-
           ))}
-
         </div>
-
       )}
 
       {/* DROP TABLE */}
-
       {selected && groups && (
-
         <div className="mt-4">
-
-          <button
-            onClick={() => setSelected(null)}
-            className="text-zinc-500 hover:text-zinc-300 text-sm mb-3"
-          >
+          <button onClick={() => setSelected(null)}
+            className="text-zinc-500 hover:text-zinc-300 text-sm mb-3">
             ← Back
           </button>
+          <h2 className="text-white font-semibold mb-4">{selected.name}</h2>
 
-          <h2 className="text-white font-semibold mb-4">
-            {selected.name}
-          </h2>
+          {SECTION_ORDER.map(key => (
+            <DropSection
+              key={key}
+              title={key === "always" ? "Always" : key === "main" ? "Main drops" : key}
+              drops={groups[key]}
+            />
+          ))}
 
-          <DropSection title="Always" drops={groups.always} />
-
-          <DropSection title="Main drops" drops={groups.main} />
-
-          <DropSection title="Rare drop table" drops={groups.rare} />
-
-          <DropSection title="Gem drop table" drops={groups.gem} />
-
-          <DropSection title="Mega rare drop table" drops={groups.mega} />
-
+          {/* Any unrecognised sub-tables */}
+          {Object.keys(groups)
+            .filter(k => !SECTION_ORDER.includes(k))
+            .map(k => (
+              <DropSection key={k} title={k.replace(/_/g, " ")} drops={groups[k]} />
+            ))}
         </div>
-
       )}
 
     </div>
