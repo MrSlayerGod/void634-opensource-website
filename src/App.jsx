@@ -5,33 +5,38 @@ import DropTable from "./DropTable.jsx";
 import VarbitVarp from "./VarbitVarp.jsx";
 import Skeletons from "./Skeletons.jsx";
 import ClientScripts from "./ClientScripts.jsx";
+import Enums from "./Enums.jsx";
+import WorldMaps from "./WorldMaps.jsx";
+import Items from "./Items.jsx";
+import Npcs from "./Npcs.jsx";
 
-// Tabs that have their own custom component
 const CUSTOM_TABS = {
+  items: <Items />,
+  npcs: <Npcs />,
   drop_tables: <DropTable />,
+  enums: <Enums />,
+  world_maps: <WorldMaps />,
   varbits_varps: <VarbitVarp />,
-  skeletons: <Skeletons />,
   client_scripts: <ClientScripts />,
+  skeletons: <Skeletons />,
 };
 
 function SearchBar({ value, onChange }) {
   return (
-    <div className="flex items-center gap-2 mb-4">
-      <div className="relative flex-1 max-w-sm">
-        <span className="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-500 text-sm select-none">🔍</span>
-        <input
-          type="text"
-          autoFocus
-          value={value}
-          onChange={(e) => onChange(e.target.value)}
-          placeholder="Search by name or ID..."
-          className="w-full bg-zinc-900 border border-zinc-700 rounded pl-9 pr-8 py-2 text-sm text-zinc-100 outline-none focus:border-zinc-500 transition-colors"
-        />
-        {value && (
-          <button onClick={() => onChange("")}
-            className="absolute right-2 top-1/2 -translate-y-1/2 text-zinc-500 hover:text-zinc-300 text-sm">✕</button>
-        )}
-      </div>
+    <div className="relative max-w-sm mb-4">
+      <span className="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-500 text-sm select-none">🔍</span>
+      <input
+        type="text"
+        autoFocus
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        placeholder="Search by name or ID..."
+        className="w-full bg-zinc-900 border border-zinc-700 rounded pl-9 pr-8 py-2 text-sm text-zinc-100 outline-none focus:border-zinc-500 transition-colors"
+      />
+      {value && (
+        <button onClick={() => onChange("")}
+          className="absolute right-2 top-1/2 -translate-y-1/2 text-zinc-500 hover:text-zinc-300 text-sm">✕</button>
+      )}
     </div>
   );
 }
@@ -71,7 +76,7 @@ function ResultsTable({ tab, results, loading, error, total, query }) {
               </tr>
             ) : (
               results.map((row) => (
-                <tr key={row.id + "-" + (row.stringId || "")}
+                <tr key={String(row.id) + (row.stringId || "")}
                   className="border-b border-zinc-900 hover:bg-zinc-900 transition-colors">
                   {tab.columns.map((col) => {
                     const val = row[col.key];
@@ -108,7 +113,7 @@ function TabPanel({ tab, query }) {
 }
 
 export default function App() {
-  const [activeKey, setActiveKey] = useState(TABS[0].key);
+  const [activeKey, setActiveKey] = useState("items");
   const [query, setQuery] = useState("");
   const activeTab = TABS.find((t) => t.key === activeKey);
   const isCustom = activeKey in CUSTOM_TABS;
@@ -126,7 +131,6 @@ export default function App() {
           <p className="text-xs text-zinc-600">Open source RuneScape · Revision 634 cache definitions</p>
         </div>
 
-        {/* Tab bar */}
         <div className="flex flex-wrap gap-1 mb-5 border-b border-zinc-800 pb-0">
           {TABS.map((tab) => (
             <button key={tab.key} onClick={() => handleTabChange(tab.key)}
@@ -140,7 +144,6 @@ export default function App() {
           ))}
         </div>
 
-        {/* Custom tab or generic search */}
         {isCustom ? (
           CUSTOM_TABS[activeKey]
         ) : (

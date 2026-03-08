@@ -10,48 +10,22 @@
 
 export const TABS = [
   {
+    // Custom component: Items.jsx
     key: "items",
     label: "Items",
-    file: () => import("./data/item_definitions.json"),
-    toRows(data) {
-      return data.map((item) => ({
-        id: item.id,
-        stringId: item.stringId || "",
-        name: item.name || "",
-        examine: item?.extras?.examine || "",
-      }));
-    },
-    columns: [
-      { key: "id", label: "ID" },
-      { key: "name", label: "Name" },
-      { key: "stringId", label: "String ID" },
-      { key: "examine", label: "Examine" },
-    ],
-    searchKeys: ["id", "name", "stringId", "examine"],
+    file: () => Promise.resolve({ default: [] }),
+    toRows: () => [],
+    columns: [],
+    searchKeys: [],
   },
   {
+    // Custom component: Npcs.jsx
     key: "npcs",
     label: "NPCs",
-    file: () => import("./data/npc_definitions.json"),
-    toRows(data) {
-      return data.map((npc) => ({
-        id: npc.id,
-        stringId: npc.stringId || "",
-        name: npc.name || "",
-        examine: npc?.extras?.examine || "",
-        level: npc.average_level ?? "",
-        hp: npc.hitpoints ?? "",
-      }));
-    },
-    columns: [
-      { key: "id", label: "ID" },
-      { key: "name", label: "Name" },
-      { key: "stringId", label: "String ID" },
-      { key: "level", label: "Level" },
-      { key: "hp", label: "HP" },
-      { key: "examine", label: "Examine" },
-    ],
-    searchKeys: ["id", "name", "stringId", "examine"],
+    file: () => Promise.resolve({ default: [] }),
+    toRows: () => [],
+    columns: [],
+    searchKeys: [],
   },
   {
     key: "objects",
@@ -85,42 +59,27 @@ export const TABS = [
     searchKeys: [],
   },
   {
+    // Custom component: Enums.jsx
     key: "enums",
     label: "Enums",
-    file: () => import("./data/enum_definitions.json"),
-    toRows(data) {
-      return data.map((e) => {
-        const d = e.definition || e;
-        return {
-          id: d.id ?? e.id,
-          stringId: d.stringId || "",
-          keyType: d.keyType || "",
-          valueType: d.valueType || "",
-          length: d.length ?? "",
-          defaultString: d.defaultString || "",
-        };
-      });
-    },
-    columns: [
-      { key: "id", label: "ID" },
-      { key: "stringId", label: "String ID" },
-      { key: "keyType", label: "Key Type" },
-      { key: "valueType", label: "Value Type" },
-      { key: "length", label: "Length" },
-      { key: "defaultString", label: "Default" },
-    ],
-    searchKeys: ["id", "stringId", "defaultString"],
+    file: () => Promise.resolve({ default: [] }),
+    toRows: () => [],
+    columns: [],
+    searchKeys: [],
   },
   {
     key: "identity_kits",
     label: "Identity Kits",
     file: () => import("./data/identity_kit_definitions.json"),
     toRows(data) {
+      const BODY_PARTS = {0:"Hair",1:"Beard",2:"Torso",3:"Arms",4:"Hands",5:"Legs",6:"Feet",7:"Female Hair",8:"Female Torso",9:"Female Arms",10:"Female Hands",11:"Female Legs",12:"Female Feet",13:"Female Beard"};
       return data.map((e) => {
         const d = e.definition || e;
+        const partId = d.bodyPartId ?? "";
         return {
           id: d.id ?? e.id,
-          bodyPartId: d.bodyPartId ?? "",
+          bodyPart: partId !== "" ? (BODY_PARTS[partId] || `Part ${partId}`) : "",
+          bodyPartId: partId,
           modelCount: d.modelIds?.length ?? "",
           headModelCount: (d.headModels || []).filter((x) => x !== -1).length,
         };
@@ -128,11 +87,11 @@ export const TABS = [
     },
     columns: [
       { key: "id", label: "ID" },
-      { key: "bodyPartId", label: "Body Part" },
+      { key: "bodyPart", label: "Body Part" },
       { key: "modelCount", label: "Models" },
       { key: "headModelCount", label: "Head Models" },
     ],
-    searchKeys: ["id", "bodyPartId"],
+    searchKeys: ["id", "bodyPart"],
   },
   {
     key: "inventories",
@@ -155,54 +114,13 @@ export const TABS = [
     searchKeys: ["id", "stringId"],
   },
   {
+    // Custom component: WorldMaps.jsx (combines World Maps + World Map Info)
     key: "world_maps",
     label: "World Maps",
-    file: () => import("./data/world_map_definitions.json"),
-    toRows(data) {
-      return data.map((e) => {
-        const d = e.definition || e;
-        return {
-          id: d.id ?? e.id,
-          name: d.name || "",
-          map: d.map || "",
-          static: d.static ? "Yes" : "No",
-          sections: d.sections?.length ?? "",
-        };
-      });
-    },
-    columns: [
-      { key: "id", label: "ID" },
-      { key: "name", label: "Name" },
-      { key: "map", label: "Map Key" },
-      { key: "static", label: "Static" },
-      { key: "sections", label: "Sections" },
-    ],
-    searchKeys: ["id", "name", "map"],
-  },
-  {
-    key: "world_map_info",
-    label: "World Map Info",
-    file: () => import("./data/world_map_info_definitions.json"),
-    toRows(data) {
-      return data.map((e) => {
-        const d = e.definition || e;
-        return {
-          id: d.id ?? e.id,
-          name: d.name || "",
-          spriteId: d.spriteId ?? "",
-          clientScript: d.clientScript ?? "",
-          hidden: d.hiddenOnWorldMap ? "Yes" : "No",
-        };
-      });
-    },
-    columns: [
-      { key: "id", label: "ID" },
-      { key: "name", label: "Name" },
-      { key: "spriteId", label: "Sprite ID" },
-      { key: "clientScript", label: "Client Script" },
-      { key: "hidden", label: "Hidden" },
-    ],
-    searchKeys: ["id", "name", "spriteId"],
+    file: () => Promise.resolve({ default: [] }),
+    toRows: () => [],
+    columns: [],
+    searchKeys: [],
   },
   {
     key: "structs",
@@ -276,20 +194,28 @@ export const TABS = [
       const arr = Array.isArray(data) ? data : Object.values(data);
       return arr.map((r) => ({
         id: r.id,
-        primaryIdle: r.primaryIdle ?? "",
-        primaryWalk: r.primaryWalk ?? "",
-        run: r.run ?? "",
-        turning: r.turning ?? "",
+        primaryIdle: r.primaryIdle !== -1 ? r.primaryIdle ?? "" : "",
+        primaryWalk: r.primaryWalk !== -1 ? r.primaryWalk ?? "" : "",
+        run: r.run !== -1 ? r.run ?? "" : "",
+        turning: r.turning !== -1 ? r.turning ?? "" : "",
+        walkBackwards: r.walkBackwards !== -1 ? r.walkBackwards ?? "" : "",
+        sideStepLeft: r.sideStepLeft !== -1 ? r.sideStepLeft ?? "" : "",
+        sideStepRight: r.sideStepRight !== -1 ? r.sideStepRight ?? "" : "",
+        secondaryWalk: r.secondaryWalk !== -1 ? r.secondaryWalk ?? "" : "",
       }));
     },
     columns: [
       { key: "id", label: "ID" },
-      { key: "primaryIdle", label: "Idle Anim" },
-      { key: "primaryWalk", label: "Walk Anim" },
-      { key: "run", label: "Run Anim" },
-      { key: "turning", label: "Turn Anim" },
+      { key: "primaryIdle", label: "Idle" },
+      { key: "primaryWalk", label: "Walk" },
+      { key: "run", label: "Run" },
+      { key: "turning", label: "Turn" },
+      { key: "walkBackwards", label: "Walk Back" },
+      { key: "sideStepLeft", label: "Step Left" },
+      { key: "sideStepRight", label: "Step Right" },
+      { key: "secondaryWalk", label: "Walk 2" },
     ],
-    searchKeys: ["id", "primaryIdle", "primaryWalk"],
+    searchKeys: ["id", "primaryIdle", "primaryWalk", "run"],
   },
   {
     // Custom component: Skeletons.jsx
