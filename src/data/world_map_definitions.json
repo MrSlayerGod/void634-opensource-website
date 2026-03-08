@@ -1,0 +1,2855 @@
+[ {
+  "id" : 0,
+  "definition" : {
+    "id" : 0,
+    "map" : "ardougne_underground",
+    "name" : "Ardougne Underground",
+    "position" : 42198494,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 100,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 2688,
+      "minY" : 9664,
+      "maxX" : 2751,
+      "maxY" : 9791,
+      "startX" : 2688,
+      "startY" : 9664,
+      "endX" : 2751,
+      "endY" : 9791
+    }, {
+      "level" : 0,
+      "minX" : 2560,
+      "minY" : 9600,
+      "maxX" : 2687,
+      "maxY" : 9727,
+      "startX" : 2560,
+      "startY" : 9600,
+      "endX" : 2687,
+      "endY" : 9727
+    }, {
+      "level" : 0,
+      "minX" : 2496,
+      "minY" : 9600,
+      "maxX" : 2559,
+      "maxY" : 9663,
+      "startX" : 2496,
+      "startY" : 9600,
+      "endX" : 2559,
+      "endY" : 9663
+    }, {
+      "level" : 0,
+      "minX" : 2560,
+      "minY" : 9728,
+      "maxX" : 2623,
+      "maxY" : 9855,
+      "startX" : 2560,
+      "startY" : 9728,
+      "endX" : 2623,
+      "endY" : 9855
+    }, {
+      "level" : 0,
+      "minX" : 2528,
+      "minY" : 9664,
+      "maxX" : 2559,
+      "maxY" : 9687,
+      "startX" : 2528,
+      "startY" : 9664,
+      "endX" : 2559,
+      "endY" : 9687
+    } ],
+    "minX" : 2496,
+    "minY" : 9600,
+    "maxX" : 2751,
+    "maxY" : 9855
+  }
+}, {
+  "id" : 1,
+  "definition" : {
+    "id" : 1,
+    "map" : "zanaris",
+    "name" : "Zanaris",
+    "position" : 40374624,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 100,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 2304,
+      "minY" : 4352,
+      "maxX" : 2367,
+      "maxY" : 4415,
+      "startX" : 2304,
+      "startY" : 4352,
+      "endX" : 2367,
+      "endY" : 4415
+    }, {
+      "level" : 0,
+      "minX" : 2432,
+      "minY" : 4416,
+      "maxX" : 2495,
+      "maxY" : 4479,
+      "startX" : 2432,
+      "startY" : 4416,
+      "endX" : 2495,
+      "endY" : 4479
+    }, {
+      "level" : 0,
+      "minX" : 2368,
+      "minY" : 4352,
+      "maxX" : 2431,
+      "maxY" : 4479,
+      "startX" : 2368,
+      "startY" : 4352,
+      "endX" : 2431,
+      "endY" : 4479
+    } ],
+    "minX" : 2304,
+    "minY" : 4352,
+    "maxX" : 2495,
+    "maxY" : 4479
+  }
+}, {
+  "id" : 2,
+  "definition" : {
+    "id" : 2,
+    "map" : "troll_stronghold",
+    "name" : "Troll Stronghold",
+    "position" : 583116647,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 75,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 2816,
+      "minY" : 10048,
+      "maxX" : 2879,
+      "maxY" : 10111,
+      "startX" : 0,
+      "startY" : 0,
+      "endX" : 63,
+      "endY" : 63
+    }, {
+      "level" : 1,
+      "minX" : 2816,
+      "minY" : 10048,
+      "maxX" : 2879,
+      "maxY" : 10111,
+      "startX" : 96,
+      "startY" : 0,
+      "endX" : 127,
+      "endY" : 63
+    }, {
+      "level" : 1,
+      "minX" : 2848,
+      "minY" : 10048,
+      "maxX" : 2879,
+      "maxY" : 10111,
+      "startX" : 128,
+      "startY" : 0,
+      "endX" : 159,
+      "endY" : 63
+    }, {
+      "level" : 2,
+      "minX" : 2816,
+      "minY" : 10048,
+      "maxX" : 2879,
+      "maxY" : 10111,
+      "startX" : 192,
+      "startY" : 0,
+      "endX" : 255,
+      "endY" : 63
+    } ],
+    "minX" : 0,
+    "minY" : 0,
+    "maxX" : 255,
+    "maxY" : 63
+  }
+}, {
+  "id" : 3,
+  "definition" : {
+    "id" : 3,
+    "map" : "yanille_dungeon",
+    "name" : "Yanille Dungeon",
+    "position" : 42280242,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 200,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 2560,
+      "minY" : 9496,
+      "maxX" : 2567,
+      "maxY" : 9535,
+      "startX" : 64,
+      "startY" : 88,
+      "endX" : 71,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 2568,
+      "minY" : 9472,
+      "maxX" : 2623,
+      "maxY" : 9535,
+      "startX" : 72,
+      "startY" : 64,
+      "endX" : 127,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 2608,
+      "minY" : 9560,
+      "maxX" : 2623,
+      "maxY" : 9575,
+      "startX" : 128,
+      "startY" : 88,
+      "endX" : 143,
+      "endY" : 103
+    }, {
+      "level" : 0,
+      "minX" : 2560,
+      "minY" : 9544,
+      "maxX" : 2607,
+      "maxY" : 9591,
+      "startX" : 24,
+      "startY" : 40,
+      "endX" : 63,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 2600,
+      "minY" : 9544,
+      "maxX" : 2607,
+      "maxY" : 9591,
+      "startX" : 64,
+      "startY" : 40,
+      "endX" : 71,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 2560,
+      "minY" : 9568,
+      "maxX" : 2607,
+      "maxY" : 9591,
+      "startX" : 24,
+      "startY" : 64,
+      "endX" : 63,
+      "endY" : 87
+    }, {
+      "level" : 0,
+      "minX" : 2600,
+      "minY" : 9568,
+      "maxX" : 2607,
+      "maxY" : 9591,
+      "startX" : 64,
+      "startY" : 64,
+      "endX" : 71,
+      "endY" : 87
+    } ],
+    "minX" : 24,
+    "minY" : 40,
+    "maxX" : 143,
+    "maxY" : 127
+  }
+}, {
+  "id" : 4,
+  "definition" : {
+    "id" : 4,
+    "map" : "tolna",
+    "name" : "Tolna's Rift",
+    "position" : 54011488,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 200,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 3264,
+      "minY" : 9792,
+      "maxX" : 3327,
+      "maxY" : 9855,
+      "startX" : 3264,
+      "startY" : 9792,
+      "endX" : 3327,
+      "endY" : 9855
+    } ],
+    "minX" : 3264,
+    "minY" : 9792,
+    "maxX" : 3327,
+    "maxY" : 9855
+  }
+}, {
+  "id" : 5,
+  "definition" : {
+    "id" : 5,
+    "map" : "slayer_cave",
+    "name" : "Fremennik Slayer Dungeon",
+    "position" : 45623072,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 200,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 2688,
+      "minY" : 9920,
+      "maxX" : 2815,
+      "maxY" : 10047,
+      "startX" : 2688,
+      "startY" : 9920,
+      "endX" : 2815,
+      "endY" : 10047
+    } ],
+    "minX" : 2688,
+    "minY" : 9920,
+    "maxX" : 2815,
+    "maxY" : 10047
+  }
+}, {
+  "id" : 6,
+  "definition" : {
+    "id" : 6,
+    "map" : "wilderness_dungeons",
+    "name" : "Wilderness Dungeons",
+    "position" : 49817663,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 50,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 2944,
+      "minY" : 10240,
+      "maxX" : 3071,
+      "maxY" : 10367,
+      "startX" : 2944,
+      "startY" : 10240,
+      "endX" : 3071,
+      "endY" : 10367
+    }, {
+      "level" : 0,
+      "minX" : 1672,
+      "minY" : 5584,
+      "maxX" : 1727,
+      "maxY" : 5615,
+      "startX" : 3240,
+      "startY" : 9960,
+      "endX" : 3263,
+      "endY" : 9983
+    }, {
+      "level" : 0,
+      "minX" : 1696,
+      "minY" : 5584,
+      "maxX" : 1727,
+      "maxY" : 5615,
+      "startX" : 3264,
+      "startY" : 9960,
+      "endX" : 3295,
+      "endY" : 9983
+    }, {
+      "level" : 0,
+      "minX" : 1672,
+      "minY" : 5608,
+      "maxX" : 1727,
+      "maxY" : 5615,
+      "startX" : 3240,
+      "startY" : 9984,
+      "endX" : 3263,
+      "endY" : 9991
+    }, {
+      "level" : 0,
+      "minX" : 1696,
+      "minY" : 5608,
+      "maxX" : 1727,
+      "maxY" : 5615,
+      "startX" : 3264,
+      "startY" : 9984,
+      "endX" : 3295,
+      "endY" : 9991
+    }, {
+      "level" : 0,
+      "minX" : 2248,
+      "minY" : 4672,
+      "maxX" : 2295,
+      "maxY" : 4719,
+      "startX" : 3104,
+      "startY" : 10208,
+      "endX" : 3135,
+      "endY" : 10239
+    }, {
+      "level" : 0,
+      "minX" : 2280,
+      "minY" : 4672,
+      "maxX" : 2295,
+      "maxY" : 4719,
+      "startX" : 3136,
+      "startY" : 10208,
+      "endX" : 3151,
+      "endY" : 10239
+    }, {
+      "level" : 0,
+      "minX" : 2248,
+      "minY" : 4704,
+      "maxX" : 2295,
+      "maxY" : 4719,
+      "startX" : 3104,
+      "startY" : 10240,
+      "endX" : 3135,
+      "endY" : 10255
+    }, {
+      "level" : 0,
+      "minX" : 2280,
+      "minY" : 4704,
+      "maxX" : 2295,
+      "maxY" : 4719,
+      "startX" : 3136,
+      "startY" : 10240,
+      "endX" : 3151,
+      "endY" : 10255
+    }, {
+      "level" : 0,
+      "minX" : 2496,
+      "minY" : 4680,
+      "maxX" : 2551,
+      "maxY" : 4735,
+      "startX" : 3072,
+      "startY" : 10320,
+      "endX" : 3127,
+      "endY" : 10367
+    }, {
+      "level" : 0,
+      "minX" : 2496,
+      "minY" : 4728,
+      "maxX" : 2551,
+      "maxY" : 4735,
+      "startX" : 3072,
+      "startY" : 10368,
+      "endX" : 3127,
+      "endY" : 10375
+    }, {
+      "level" : 0,
+      "minX" : 1536,
+      "minY" : 5784,
+      "maxX" : 1583,
+      "maxY" : 5823,
+      "startX" : 3168,
+      "startY" : 10080,
+      "endX" : 3199,
+      "endY" : 10111
+    }, {
+      "level" : 0,
+      "minX" : 1568,
+      "minY" : 5784,
+      "maxX" : 1583,
+      "maxY" : 5823,
+      "startX" : 3200,
+      "startY" : 10080,
+      "endX" : 3215,
+      "endY" : 10111
+    }, {
+      "level" : 0,
+      "minX" : 1536,
+      "minY" : 5816,
+      "maxX" : 1583,
+      "maxY" : 5823,
+      "startX" : 3168,
+      "startY" : 10112,
+      "endX" : 3199,
+      "endY" : 10119
+    }, {
+      "level" : 0,
+      "minX" : 1568,
+      "minY" : 5816,
+      "maxX" : 1583,
+      "maxY" : 5823,
+      "startX" : 3200,
+      "startY" : 10112,
+      "endX" : 3215,
+      "endY" : 10119
+    } ],
+    "minX" : 2944,
+    "minY" : 9960,
+    "maxX" : 3295,
+    "maxY" : 10375
+  }
+}, {
+  "id" : 7,
+  "definition" : {
+    "id" : 7,
+    "map" : "mole",
+    "name" : "Mole Hole",
+    "position" : 28841023,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 200,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 1728,
+      "minY" : 5120,
+      "maxX" : 1791,
+      "maxY" : 5247,
+      "startX" : 1728,
+      "startY" : 5120,
+      "endX" : 1791,
+      "endY" : 5247
+    } ],
+    "minX" : 1728,
+    "minY" : 5120,
+    "maxX" : 1791,
+    "maxY" : 5247
+  }
+}, {
+  "id" : 8,
+  "definition" : {
+    "id" : 8,
+    "map" : "white_wolf_mountain_underground",
+    "name" : "White Wolf Mountain Underground",
+    "position" : 47179455,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 200,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 2816,
+      "minY" : 9856,
+      "maxX" : 2943,
+      "maxY" : 9983,
+      "startX" : 2816,
+      "startY" : 9856,
+      "endX" : 2943,
+      "endY" : 9983
+    } ],
+    "minX" : 2816,
+    "minY" : 9856,
+    "maxX" : 2943,
+    "maxY" : 9983
+  }
+}, {
+  "id" : 9,
+  "definition" : {
+    "id" : 9,
+    "map" : "sops",
+    "name" : "Stronghold of Player Safety",
+    "position" : 320344224,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 75,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 3072,
+      "minY" : 4224,
+      "maxX" : 3111,
+      "maxY" : 4255,
+      "startX" : 88,
+      "startY" : 184,
+      "endX" : 127,
+      "endY" : 191
+    }, {
+      "level" : 0,
+      "minX" : 3072,
+      "minY" : 4232,
+      "maxX" : 3111,
+      "maxY" : 4255,
+      "startX" : 88,
+      "startY" : 192,
+      "endX" : 127,
+      "endY" : 215
+    }, {
+      "level" : 1,
+      "minX" : 3136,
+      "minY" : 4224,
+      "maxX" : 3199,
+      "maxY" : 4287,
+      "startX" : 0,
+      "startY" : 80,
+      "endX" : 63,
+      "endY" : 127
+    }, {
+      "level" : 1,
+      "minX" : 3136,
+      "minY" : 4272,
+      "maxX" : 3199,
+      "maxY" : 4287,
+      "startX" : 0,
+      "startY" : 128,
+      "endX" : 63,
+      "endY" : 143
+    }, {
+      "level" : 2,
+      "minX" : 3136,
+      "minY" : 4224,
+      "maxX" : 3199,
+      "maxY" : 4279,
+      "startX" : 72,
+      "startY" : 88,
+      "endX" : 127,
+      "endY" : 127
+    }, {
+      "level" : 2,
+      "minX" : 3192,
+      "minY" : 4224,
+      "maxX" : 3199,
+      "maxY" : 4279,
+      "startX" : 128,
+      "startY" : 88,
+      "endX" : 135,
+      "endY" : 127
+    }, {
+      "level" : 2,
+      "minX" : 3136,
+      "minY" : 4264,
+      "maxX" : 3199,
+      "maxY" : 4279,
+      "startX" : 72,
+      "startY" : 128,
+      "endX" : 127,
+      "endY" : 143
+    }, {
+      "level" : 2,
+      "minX" : 3192,
+      "minY" : 4264,
+      "maxX" : 3199,
+      "maxY" : 4279,
+      "startX" : 128,
+      "startY" : 128,
+      "endX" : 135,
+      "endY" : 143
+    }, {
+      "level" : 3,
+      "minX" : 3136,
+      "minY" : 4224,
+      "maxX" : 3175,
+      "maxY" : 4287,
+      "startX" : 168,
+      "startY" : 80,
+      "endX" : 191,
+      "endY" : 127
+    }, {
+      "level" : 3,
+      "minX" : 3160,
+      "minY" : 4224,
+      "maxX" : 3175,
+      "maxY" : 4287,
+      "startX" : 192,
+      "startY" : 80,
+      "endX" : 207,
+      "endY" : 127
+    }, {
+      "level" : 3,
+      "minX" : 3136,
+      "minY" : 4272,
+      "maxX" : 3175,
+      "maxY" : 4287,
+      "startX" : 168,
+      "startY" : 128,
+      "endX" : 191,
+      "endY" : 143
+    }, {
+      "level" : 3,
+      "minX" : 3160,
+      "minY" : 4272,
+      "maxX" : 3175,
+      "maxY" : 4287,
+      "startX" : 192,
+      "startY" : 128,
+      "endX" : 207,
+      "endY" : 143
+    }, {
+      "level" : 0,
+      "minX" : 3136,
+      "minY" : 4224,
+      "maxX" : 3199,
+      "maxY" : 4287,
+      "startX" : 80,
+      "startY" : 0,
+      "endX" : 127,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 3184,
+      "minY" : 4224,
+      "maxX" : 3199,
+      "maxY" : 4287,
+      "startX" : 128,
+      "startY" : 0,
+      "endX" : 143,
+      "endY" : 63
+    } ],
+    "minX" : 0,
+    "minY" : 0,
+    "maxX" : 207,
+    "maxY" : 215
+  }
+}, {
+  "id" : 10,
+  "definition" : {
+    "id" : 10,
+    "map" : "null",
+    "name" : "Loading...",
+    "position" : 1572960,
+    "anInt9542" : 0,
+    "static" : false,
+    "anInt9547" : 0,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 64,
+      "minY" : 64,
+      "maxX" : 127,
+      "maxY" : 127,
+      "startX" : 64,
+      "startY" : 64,
+      "endX" : 127,
+      "endY" : 127
+    } ],
+    "minX" : 64,
+    "minY" : 64,
+    "maxX" : 127,
+    "maxY" : 127
+  }
+}, {
+  "id" : 11,
+  "definition" : {
+    "id" : 11,
+    "map" : "soul_wars_tutorial",
+    "name" : "Soul Wars Tutorial",
+    "position" : 59249952,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 200,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 3520,
+      "minY" : 5376,
+      "maxX" : 3711,
+      "maxY" : 5439,
+      "startX" : 3520,
+      "startY" : 5376,
+      "endX" : 3711,
+      "endY" : 5439
+    } ],
+    "minX" : 3520,
+    "minY" : 5376,
+    "maxX" : 3711,
+    "maxY" : 5439
+  }
+}, {
+  "id" : 12,
+  "definition" : {
+    "id" : 12,
+    "map" : "tzhaar_area",
+    "name" : "TzHaar Area",
+    "position" : 40375328,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 200,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 2368,
+      "minY" : 5120,
+      "maxX" : 2559,
+      "maxY" : 5183,
+      "startX" : 2368,
+      "startY" : 5120,
+      "endX" : 2559,
+      "endY" : 5183
+    } ],
+    "minX" : 2368,
+    "minY" : 5120,
+    "maxX" : 2559,
+    "maxY" : 5183
+  }
+}, {
+  "id" : 13,
+  "definition" : {
+    "id" : 13,
+    "map" : "karamja_underground",
+    "name" : "Karamja Underground",
+    "position" : 44098908,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 100,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 2688,
+      "minY" : 9408,
+      "maxX" : 2879,
+      "maxY" : 9663,
+      "startX" : 128,
+      "startY" : 0,
+      "endX" : 319,
+      "endY" : 255
+    }, {
+      "level" : 2,
+      "minX" : 2624,
+      "minY" : 9472,
+      "maxX" : 2663,
+      "maxY" : 9535,
+      "startX" : 24,
+      "startY" : 64,
+      "endX" : 63,
+      "endY" : 127
+    }, {
+      "level" : 2,
+      "minX" : 2624,
+      "minY" : 9536,
+      "maxX" : 2655,
+      "maxY" : 9599,
+      "startX" : 24,
+      "startY" : 128,
+      "endX" : 55,
+      "endY" : 191
+    }, {
+      "level" : 0,
+      "minX" : 2624,
+      "minY" : 9472,
+      "maxX" : 2687,
+      "maxY" : 9535,
+      "startX" : 64,
+      "startY" : 64,
+      "endX" : 127,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 2624,
+      "minY" : 9536,
+      "maxX" : 2631,
+      "maxY" : 9559,
+      "startX" : 64,
+      "startY" : 128,
+      "endX" : 71,
+      "endY" : 151
+    }, {
+      "level" : 0,
+      "minX" : 2632,
+      "minY" : 9536,
+      "maxX" : 2687,
+      "maxY" : 9599,
+      "startX" : 72,
+      "startY" : 128,
+      "endX" : 127,
+      "endY" : 191
+    } ],
+    "minX" : 24,
+    "minY" : 0,
+    "maxX" : 319,
+    "maxY" : 255
+  }
+}, {
+  "id" : 14,
+  "definition" : {
+    "id" : 14,
+    "map" : "miscellania_underground",
+    "name" : "Miscellania Underground",
+    "position" : 41936864,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 75,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 2432,
+      "minY" : 10176,
+      "maxX" : 2687,
+      "maxY" : 10431,
+      "startX" : 2432,
+      "startY" : 10176,
+      "endX" : 2687,
+      "endY" : 10431
+    }, {
+      "level" : 1,
+      "minX" : 2368,
+      "minY" : 10240,
+      "maxX" : 2431,
+      "maxY" : 10303,
+      "startX" : 2368,
+      "startY" : 10240,
+      "endX" : 2431,
+      "endY" : 10303
+    }, {
+      "level" : 2,
+      "minX" : 2304,
+      "minY" : 10304,
+      "maxX" : 2367,
+      "maxY" : 10367,
+      "startX" : 2112,
+      "startY" : 10304,
+      "endX" : 2175,
+      "endY" : 10367
+    } ],
+    "minX" : 2112,
+    "minY" : 10176,
+    "maxX" : 2687,
+    "maxY" : 10431
+  }
+}, {
+  "id" : 15,
+  "definition" : {
+    "id" : 15,
+    "map" : "godwars",
+    "name" : "God Wars Dungeon",
+    "position" : 584062144,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 100,
+    "sections" : [ {
+      "level" : 2,
+      "minX" : 2816,
+      "minY" : 5248,
+      "maxX" : 2879,
+      "maxY" : 5311,
+      "startX" : 64,
+      "startY" : 128,
+      "endX" : 127,
+      "endY" : 191
+    }, {
+      "level" : 2,
+      "minX" : 2816,
+      "minY" : 5312,
+      "maxX" : 2879,
+      "maxY" : 5375,
+      "startX" : 64,
+      "startY" : 192,
+      "endX" : 127,
+      "endY" : 255
+    }, {
+      "level" : 2,
+      "minX" : 2880,
+      "minY" : 5312,
+      "maxX" : 2943,
+      "maxY" : 5375,
+      "startX" : 128,
+      "startY" : 192,
+      "endX" : 191,
+      "endY" : 255
+    }, {
+      "level" : 2,
+      "minX" : 2880,
+      "minY" : 5280,
+      "maxX" : 2911,
+      "maxY" : 5311,
+      "startX" : 128,
+      "startY" : 160,
+      "endX" : 159,
+      "endY" : 191
+    }, {
+      "level" : 2,
+      "minX" : 2880,
+      "minY" : 5264,
+      "maxX" : 2895,
+      "maxY" : 5279,
+      "startX" : 128,
+      "startY" : 144,
+      "endX" : 143,
+      "endY" : 159
+    }, {
+      "level" : 2,
+      "minX" : 2912,
+      "minY" : 5296,
+      "maxX" : 2919,
+      "maxY" : 5311,
+      "startX" : 160,
+      "startY" : 176,
+      "endX" : 167,
+      "endY" : 191
+    }, {
+      "level" : 1,
+      "minX" : 2912,
+      "minY" : 5272,
+      "maxX" : 2943,
+      "maxY" : 5311,
+      "startX" : 184,
+      "startY" : 152,
+      "endX" : 191,
+      "endY" : 191
+    }, {
+      "level" : 1,
+      "minX" : 2920,
+      "minY" : 5272,
+      "maxX" : 2943,
+      "maxY" : 5311,
+      "startX" : 192,
+      "startY" : 152,
+      "endX" : 215,
+      "endY" : 191
+    }, {
+      "level" : 0,
+      "minX" : 2888,
+      "minY" : 5248,
+      "maxX" : 2935,
+      "maxY" : 5279,
+      "startX" : 152,
+      "startY" : 120,
+      "endX" : 191,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 2928,
+      "minY" : 5248,
+      "maxX" : 2935,
+      "maxY" : 5279,
+      "startX" : 192,
+      "startY" : 120,
+      "endX" : 199,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 2888,
+      "minY" : 5256,
+      "maxX" : 2935,
+      "maxY" : 5279,
+      "startX" : 152,
+      "startY" : 128,
+      "endX" : 191,
+      "endY" : 151
+    }, {
+      "level" : 0,
+      "minX" : 2928,
+      "minY" : 5256,
+      "maxX" : 2935,
+      "maxY" : 5279,
+      "startX" : 192,
+      "startY" : 128,
+      "endX" : 199,
+      "endY" : 151
+    }, {
+      "level" : 0,
+      "minX" : 2848,
+      "minY" : 5184,
+      "maxX" : 2879,
+      "maxY" : 5231,
+      "startX" : 88,
+      "startY" : 56,
+      "endX" : 119,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 2848,
+      "minY" : 5192,
+      "maxX" : 2879,
+      "maxY" : 5231,
+      "startX" : 88,
+      "startY" : 64,
+      "endX" : 119,
+      "endY" : 103
+    }, {
+      "level" : 0,
+      "minX" : 2880,
+      "minY" : 5184,
+      "maxX" : 2943,
+      "maxY" : 5231,
+      "startX" : 120,
+      "startY" : 56,
+      "endX" : 127,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 2888,
+      "minY" : 5184,
+      "maxX" : 2943,
+      "maxY" : 5231,
+      "startX" : 128,
+      "startY" : 56,
+      "endX" : 183,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 2880,
+      "minY" : 5192,
+      "maxX" : 2943,
+      "maxY" : 5231,
+      "startX" : 120,
+      "startY" : 64,
+      "endX" : 127,
+      "endY" : 103
+    }, {
+      "level" : 0,
+      "minX" : 2888,
+      "minY" : 5192,
+      "maxX" : 2943,
+      "maxY" : 5231,
+      "startX" : 128,
+      "startY" : 64,
+      "endX" : 183,
+      "endY" : 103
+    } ],
+    "minX" : 64,
+    "minY" : 56,
+    "maxX" : 215,
+    "maxY" : 255
+  }
+}, {
+  "id" : 16,
+  "definition" : {
+    "id" : 16,
+    "map" : "waterbirth",
+    "name" : "Waterbirth Island Dungeon",
+    "position" : 40888224,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 75,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 2432,
+      "minY" : 10112,
+      "maxX" : 2559,
+      "maxY" : 10175,
+      "startX" : 0,
+      "startY" : 448,
+      "endX" : 127,
+      "endY" : 511
+    }, {
+      "level" : 3,
+      "minX" : 1792,
+      "minY" : 4352,
+      "maxX" : 1855,
+      "maxY" : 4415,
+      "startX" : 112,
+      "startY" : 352,
+      "endX" : 127,
+      "endY" : 383
+    }, {
+      "level" : 3,
+      "minX" : 1808,
+      "minY" : 4352,
+      "maxX" : 1855,
+      "maxY" : 4415,
+      "startX" : 128,
+      "startY" : 352,
+      "endX" : 175,
+      "endY" : 383
+    }, {
+      "level" : 3,
+      "minX" : 1792,
+      "minY" : 4384,
+      "maxX" : 1855,
+      "maxY" : 4415,
+      "startX" : 112,
+      "startY" : 384,
+      "endX" : 127,
+      "endY" : 415
+    }, {
+      "level" : 3,
+      "minX" : 1808,
+      "minY" : 4384,
+      "maxX" : 1855,
+      "maxY" : 4415,
+      "startX" : 128,
+      "startY" : 384,
+      "endX" : 175,
+      "endY" : 415
+    }, {
+      "level" : 3,
+      "minX" : 1856,
+      "minY" : 4352,
+      "maxX" : 1919,
+      "maxY" : 4415,
+      "startX" : 176,
+      "startY" : 352,
+      "endX" : 191,
+      "endY" : 383
+    }, {
+      "level" : 3,
+      "minX" : 1872,
+      "minY" : 4352,
+      "maxX" : 1919,
+      "maxY" : 4415,
+      "startX" : 192,
+      "startY" : 352,
+      "endX" : 239,
+      "endY" : 383
+    }, {
+      "level" : 3,
+      "minX" : 1856,
+      "minY" : 4384,
+      "maxX" : 1919,
+      "maxY" : 4415,
+      "startX" : 176,
+      "startY" : 384,
+      "endX" : 191,
+      "endY" : 415
+    }, {
+      "level" : 3,
+      "minX" : 1872,
+      "minY" : 4384,
+      "maxX" : 1919,
+      "maxY" : 4415,
+      "startX" : 192,
+      "startY" : 384,
+      "endX" : 239,
+      "endY" : 415
+    }, {
+      "level" : 3,
+      "minX" : 1920,
+      "minY" : 4352,
+      "maxX" : 1983,
+      "maxY" : 4415,
+      "startX" : 240,
+      "startY" : 352,
+      "endX" : 255,
+      "endY" : 383
+    }, {
+      "level" : 3,
+      "minX" : 1936,
+      "minY" : 4352,
+      "maxX" : 1983,
+      "maxY" : 4415,
+      "startX" : 256,
+      "startY" : 352,
+      "endX" : 303,
+      "endY" : 383
+    }, {
+      "level" : 3,
+      "minX" : 1920,
+      "minY" : 4384,
+      "maxX" : 1983,
+      "maxY" : 4415,
+      "startX" : 240,
+      "startY" : 384,
+      "endX" : 255,
+      "endY" : 415
+    }, {
+      "level" : 3,
+      "minX" : 1936,
+      "minY" : 4384,
+      "maxX" : 1983,
+      "maxY" : 4415,
+      "startX" : 256,
+      "startY" : 384,
+      "endX" : 303,
+      "endY" : 415
+    }, {
+      "level" : 2,
+      "minX" : 1792,
+      "minY" : 4352,
+      "maxX" : 1855,
+      "maxY" : 4415,
+      "startX" : 112,
+      "startY" : 256,
+      "endX" : 127,
+      "endY" : 319
+    }, {
+      "level" : 2,
+      "minX" : 1808,
+      "minY" : 4352,
+      "maxX" : 1855,
+      "maxY" : 4415,
+      "startX" : 128,
+      "startY" : 256,
+      "endX" : 175,
+      "endY" : 319
+    }, {
+      "level" : 2,
+      "minX" : 1856,
+      "minY" : 4352,
+      "maxX" : 1919,
+      "maxY" : 4415,
+      "startX" : 176,
+      "startY" : 256,
+      "endX" : 191,
+      "endY" : 319
+    }, {
+      "level" : 2,
+      "minX" : 1872,
+      "minY" : 4352,
+      "maxX" : 1919,
+      "maxY" : 4415,
+      "startX" : 192,
+      "startY" : 256,
+      "endX" : 239,
+      "endY" : 319
+    }, {
+      "level" : 2,
+      "minX" : 1920,
+      "minY" : 4352,
+      "maxX" : 1983,
+      "maxY" : 4415,
+      "startX" : 240,
+      "startY" : 256,
+      "endX" : 255,
+      "endY" : 319
+    }, {
+      "level" : 2,
+      "minX" : 1936,
+      "minY" : 4352,
+      "maxX" : 1983,
+      "maxY" : 4415,
+      "startX" : 256,
+      "startY" : 256,
+      "endX" : 303,
+      "endY" : 319
+    }, {
+      "level" : 1,
+      "minX" : 1792,
+      "minY" : 4352,
+      "maxX" : 1855,
+      "maxY" : 4415,
+      "startX" : 112,
+      "startY" : 160,
+      "endX" : 127,
+      "endY" : 191
+    }, {
+      "level" : 1,
+      "minX" : 1808,
+      "minY" : 4352,
+      "maxX" : 1855,
+      "maxY" : 4415,
+      "startX" : 128,
+      "startY" : 160,
+      "endX" : 175,
+      "endY" : 191
+    }, {
+      "level" : 1,
+      "minX" : 1792,
+      "minY" : 4384,
+      "maxX" : 1855,
+      "maxY" : 4415,
+      "startX" : 112,
+      "startY" : 192,
+      "endX" : 127,
+      "endY" : 223
+    }, {
+      "level" : 1,
+      "minX" : 1808,
+      "minY" : 4384,
+      "maxX" : 1855,
+      "maxY" : 4415,
+      "startX" : 128,
+      "startY" : 192,
+      "endX" : 175,
+      "endY" : 223
+    }, {
+      "level" : 1,
+      "minX" : 1856,
+      "minY" : 4352,
+      "maxX" : 1919,
+      "maxY" : 4415,
+      "startX" : 176,
+      "startY" : 160,
+      "endX" : 191,
+      "endY" : 191
+    }, {
+      "level" : 1,
+      "minX" : 1872,
+      "minY" : 4352,
+      "maxX" : 1919,
+      "maxY" : 4415,
+      "startX" : 192,
+      "startY" : 160,
+      "endX" : 239,
+      "endY" : 191
+    }, {
+      "level" : 1,
+      "minX" : 1856,
+      "minY" : 4384,
+      "maxX" : 1919,
+      "maxY" : 4415,
+      "startX" : 176,
+      "startY" : 192,
+      "endX" : 191,
+      "endY" : 223
+    }, {
+      "level" : 1,
+      "minX" : 1872,
+      "minY" : 4384,
+      "maxX" : 1919,
+      "maxY" : 4415,
+      "startX" : 192,
+      "startY" : 192,
+      "endX" : 239,
+      "endY" : 223
+    }, {
+      "level" : 1,
+      "minX" : 1920,
+      "minY" : 4352,
+      "maxX" : 1983,
+      "maxY" : 4415,
+      "startX" : 240,
+      "startY" : 160,
+      "endX" : 255,
+      "endY" : 191
+    }, {
+      "level" : 1,
+      "minX" : 1936,
+      "minY" : 4352,
+      "maxX" : 1983,
+      "maxY" : 4415,
+      "startX" : 256,
+      "startY" : 160,
+      "endX" : 303,
+      "endY" : 191
+    }, {
+      "level" : 1,
+      "minX" : 1920,
+      "minY" : 4384,
+      "maxX" : 1983,
+      "maxY" : 4415,
+      "startX" : 240,
+      "startY" : 192,
+      "endX" : 255,
+      "endY" : 223
+    }, {
+      "level" : 1,
+      "minX" : 1936,
+      "minY" : 4384,
+      "maxX" : 1983,
+      "maxY" : 4415,
+      "startX" : 256,
+      "startY" : 192,
+      "endX" : 303,
+      "endY" : 223
+    }, {
+      "level" : 0,
+      "minX" : 1792,
+      "minY" : 4352,
+      "maxX" : 1855,
+      "maxY" : 4415,
+      "startX" : 112,
+      "startY" : 64,
+      "endX" : 127,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 1808,
+      "minY" : 4352,
+      "maxX" : 1855,
+      "maxY" : 4415,
+      "startX" : 128,
+      "startY" : 64,
+      "endX" : 175,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 1856,
+      "minY" : 4352,
+      "maxX" : 1919,
+      "maxY" : 4415,
+      "startX" : 176,
+      "startY" : 64,
+      "endX" : 191,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 1872,
+      "minY" : 4352,
+      "maxX" : 1919,
+      "maxY" : 4415,
+      "startX" : 192,
+      "startY" : 64,
+      "endX" : 239,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 1920,
+      "minY" : 4352,
+      "maxX" : 1983,
+      "maxY" : 4415,
+      "startX" : 240,
+      "startY" : 64,
+      "endX" : 255,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 1936,
+      "minY" : 4352,
+      "maxX" : 1983,
+      "maxY" : 4415,
+      "startX" : 256,
+      "startY" : 64,
+      "endX" : 303,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 2880,
+      "minY" : 4424,
+      "maxX" : 2943,
+      "maxY" : 4479,
+      "startX" : 216,
+      "startY" : 0,
+      "endX" : 255,
+      "endY" : 55
+    }, {
+      "level" : 0,
+      "minX" : 2920,
+      "minY" : 4424,
+      "maxX" : 2943,
+      "maxY" : 4479,
+      "startX" : 256,
+      "startY" : 0,
+      "endX" : 279,
+      "endY" : 55
+    } ],
+    "minX" : 0,
+    "minY" : 0,
+    "maxX" : 303,
+    "maxY" : 511
+  }
+}, {
+  "id" : 17,
+  "definition" : {
+    "id" : 17,
+    "map" : "taverley_dungeon",
+    "name" : "Taverley Dungeon",
+    "position" : 47720032,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 100,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 2944,
+      "minY" : 9728,
+      "maxX" : 3007,
+      "maxY" : 9791,
+      "startX" : 2944,
+      "startY" : 9728,
+      "endX" : 3007,
+      "endY" : 9791
+    }, {
+      "level" : 0,
+      "minX" : 2816,
+      "minY" : 9664,
+      "maxX" : 2943,
+      "maxY" : 9855,
+      "startX" : 2816,
+      "startY" : 9664,
+      "endX" : 2943,
+      "endY" : 9855
+    }, {
+      "level" : 0,
+      "minX" : 2944,
+      "minY" : 9792,
+      "maxX" : 2975,
+      "maxY" : 9799,
+      "startX" : 2944,
+      "startY" : 9792,
+      "endX" : 2975,
+      "endY" : 9799
+    }, {
+      "level" : 0,
+      "minX" : 2944,
+      "minY" : 9800,
+      "maxX" : 2951,
+      "maxY" : 9807,
+      "startX" : 2944,
+      "startY" : 9800,
+      "endX" : 2951,
+      "endY" : 9807
+    }, {
+      "level" : 0,
+      "minX" : 2808,
+      "minY" : 9832,
+      "maxX" : 2815,
+      "maxY" : 9839,
+      "startX" : 2808,
+      "startY" : 9832,
+      "endX" : 2815,
+      "endY" : 9839
+    }, {
+      "level" : 0,
+      "minX" : 2808,
+      "minY" : 9824,
+      "maxX" : 2815,
+      "maxY" : 9831,
+      "startX" : 2808,
+      "startY" : 9824,
+      "endX" : 2815,
+      "endY" : 9831
+    } ],
+    "minX" : 2808,
+    "minY" : 9664,
+    "maxX" : 3007,
+    "maxY" : 9855
+  }
+}, {
+  "id" : 18,
+  "definition" : {
+    "id" : 18,
+    "map" : "dwarven_mines",
+    "name" : "Dwarven Mines",
+    "position" : 49817184,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 100,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 3008,
+      "minY" : 9728,
+      "maxX" : 3071,
+      "maxY" : 9791,
+      "startX" : 3008,
+      "startY" : 9728,
+      "endX" : 3071,
+      "endY" : 9791
+    }, {
+      "level" : 0,
+      "minX" : 3008,
+      "minY" : 9792,
+      "maxX" : 3071,
+      "maxY" : 9855,
+      "startX" : 3008,
+      "startY" : 9792,
+      "endX" : 3071,
+      "endY" : 9855
+    }, {
+      "level" : 0,
+      "minX" : 2960,
+      "minY" : 9800,
+      "maxX" : 3007,
+      "maxY" : 9855,
+      "startX" : 2960,
+      "startY" : 9800,
+      "endX" : 3007,
+      "endY" : 9855
+    }, {
+      "level" : 0,
+      "minX" : 3000,
+      "minY" : 9792,
+      "maxX" : 3007,
+      "maxY" : 9799,
+      "startX" : 3000,
+      "startY" : 9792,
+      "endX" : 3007,
+      "endY" : 9799
+    }, {
+      "level" : 0,
+      "minX" : 2992,
+      "minY" : 9792,
+      "maxX" : 2999,
+      "maxY" : 9799,
+      "startX" : 2992,
+      "startY" : 9792,
+      "endX" : 2999,
+      "endY" : 9799
+    } ],
+    "minX" : 2960,
+    "minY" : 9728,
+    "maxX" : 3071,
+    "maxY" : 9855
+  }
+}, {
+  "id" : 19,
+  "definition" : {
+    "id" : 19,
+    "map" : "braindeath_island",
+    "name" : "Braindeath Island",
+    "position" : 35132397,
+    "anInt9542" : -1,
+    "static" : true,
+    "anInt9547" : 200,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 2112,
+      "minY" : 5056,
+      "maxX" : 2175,
+      "maxY" : 5183,
+      "startX" : 2112,
+      "startY" : 5056,
+      "endX" : 2175,
+      "endY" : 5183
+    } ],
+    "minX" : 2112,
+    "minY" : 5056,
+    "maxX" : 2175,
+    "maxY" : 5183
+  }
+}, {
+  "id" : 20,
+  "definition" : {
+    "id" : 20,
+    "map" : "kalphite",
+    "name" : "Kalphite Hive",
+    "position" : 594027808,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 100,
+    "sections" : [ {
+      "level" : 2,
+      "minX" : 3456,
+      "minY" : 9472,
+      "maxX" : 3519,
+      "maxY" : 9535,
+      "startX" : 0,
+      "startY" : 0,
+      "endX" : 63,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 3456,
+      "minY" : 9472,
+      "maxX" : 3519,
+      "maxY" : 9535,
+      "startX" : 96,
+      "startY" : 0,
+      "endX" : 127,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 3488,
+      "minY" : 9472,
+      "maxX" : 3519,
+      "maxY" : 9535,
+      "startX" : 128,
+      "startY" : 0,
+      "endX" : 159,
+      "endY" : 63
+    } ],
+    "minX" : 0,
+    "minY" : 0,
+    "maxX" : 159,
+    "maxY" : 63
+  }
+}, {
+  "id" : 21,
+  "definition" : {
+    "id" : 21,
+    "map" : "keldagrim",
+    "name" : "Keldagrim",
+    "position" : 47179712,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 200,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 2880,
+      "minY" : 10112,
+      "maxX" : 2943,
+      "maxY" : 10175,
+      "startX" : 64,
+      "startY" : 64,
+      "endX" : 127,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 2816,
+      "minY" : 10176,
+      "maxX" : 2943,
+      "maxY" : 10239,
+      "startX" : 0,
+      "startY" : 128,
+      "endX" : 127,
+      "endY" : 191
+    }, {
+      "level" : 0,
+      "minX" : 2816,
+      "minY" : 10120,
+      "maxX" : 2879,
+      "maxY" : 10175,
+      "startX" : 0,
+      "startY" : 72,
+      "endX" : 63,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 2856,
+      "minY" : 10112,
+      "maxX" : 2879,
+      "maxY" : 10119,
+      "startX" : 40,
+      "startY" : 64,
+      "endX" : 63,
+      "endY" : 71
+    }, {
+      "level" : 0,
+      "minX" : 2760,
+      "minY" : 10128,
+      "maxX" : 2783,
+      "maxY" : 10167,
+      "startX" : 0,
+      "startY" : 32,
+      "endX" : 23,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 2760,
+      "minY" : 10160,
+      "maxX" : 2783,
+      "maxY" : 10167,
+      "startX" : 0,
+      "startY" : 64,
+      "endX" : 23,
+      "endY" : 71
+    }, {
+      "level" : 0,
+      "minX" : 2784,
+      "minY" : 10120,
+      "maxX" : 2807,
+      "maxY" : 10151,
+      "startX" : 24,
+      "startY" : 24,
+      "endX" : 47,
+      "endY" : 55
+    }, {
+      "level" : 0,
+      "minX" : 2864,
+      "minY" : 10240,
+      "maxX" : 2879,
+      "maxY" : 10271,
+      "startX" : 48,
+      "startY" : 192,
+      "endX" : 63,
+      "endY" : 223
+    }, {
+      "level" : 0,
+      "minX" : 2880,
+      "minY" : 10240,
+      "maxX" : 2895,
+      "maxY" : 10271,
+      "startX" : 64,
+      "startY" : 192,
+      "endX" : 79,
+      "endY" : 223
+    } ],
+    "minX" : 0,
+    "minY" : 24,
+    "maxX" : 127,
+    "maxY" : 223
+  }
+}, {
+  "id" : 22,
+  "definition" : {
+    "id" : 22,
+    "map" : "pollnivneach_well",
+    "name" : "Pollnivneach Slayer Dungeon",
+    "position" : 55567533,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 100,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 3328,
+      "minY" : 9344,
+      "maxX" : 3391,
+      "maxY" : 9407,
+      "startX" : 0,
+      "startY" : 0,
+      "endX" : 63,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 3328,
+      "minY" : 9408,
+      "maxX" : 3391,
+      "maxY" : 9471,
+      "startX" : 0,
+      "startY" : 64,
+      "endX" : 63,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 3264,
+      "minY" : 4288,
+      "maxX" : 3327,
+      "maxY" : 4351,
+      "startX" : 96,
+      "startY" : 0,
+      "endX" : 127,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 3296,
+      "minY" : 4288,
+      "maxX" : 3327,
+      "maxY" : 4351,
+      "startX" : 128,
+      "startY" : 0,
+      "endX" : 159,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 3264,
+      "minY" : 4352,
+      "maxX" : 3327,
+      "maxY" : 4415,
+      "startX" : 96,
+      "startY" : 64,
+      "endX" : 127,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 3296,
+      "minY" : 4352,
+      "maxX" : 3327,
+      "maxY" : 4415,
+      "startX" : 128,
+      "startY" : 64,
+      "endX" : 159,
+      "endY" : 127
+    } ],
+    "minX" : 0,
+    "minY" : 0,
+    "maxX" : 159,
+    "maxY" : 127
+  }
+}, {
+  "id" : 23,
+  "definition" : {
+    "id" : 23,
+    "map" : "chaos_tunnels",
+    "name" : "Chaos Tunnels",
+    "position" : 52958624,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 100,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 3136,
+      "minY" : 5440,
+      "maxX" : 3327,
+      "maxY" : 5567,
+      "startX" : 3136,
+      "startY" : 5440,
+      "endX" : 3327,
+      "endY" : 5567
+    } ],
+    "minX" : 3136,
+    "minY" : 5440,
+    "maxX" : 3327,
+    "maxY" : 5567
+  }
+}, {
+  "id" : 24,
+  "definition" : {
+    "id" : 24,
+    "map" : "sos",
+    "name" : "Stronghold of Security",
+    "position" : 30938208,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 75,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 1856,
+      "minY" : 5184,
+      "maxX" : 1919,
+      "maxY" : 5247,
+      "startX" : 0,
+      "startY" : 104,
+      "endX" : 63,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 1856,
+      "minY" : 5208,
+      "maxX" : 1919,
+      "maxY" : 5247,
+      "startX" : 0,
+      "startY" : 128,
+      "endX" : 63,
+      "endY" : 167
+    }, {
+      "level" : 0,
+      "minX" : 1984,
+      "minY" : 5184,
+      "maxX" : 2047,
+      "maxY" : 5247,
+      "startX" : 88,
+      "startY" : 88,
+      "endX" : 127,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 2024,
+      "minY" : 5184,
+      "maxX" : 2047,
+      "maxY" : 5247,
+      "startX" : 128,
+      "startY" : 88,
+      "endX" : 151,
+      "endY" : 127
+    }, {
+      "level" : 0,
+      "minX" : 1984,
+      "minY" : 5224,
+      "maxX" : 2047,
+      "maxY" : 5247,
+      "startX" : 88,
+      "startY" : 128,
+      "endX" : 127,
+      "endY" : 151
+    }, {
+      "level" : 0,
+      "minX" : 2024,
+      "minY" : 5224,
+      "maxX" : 2047,
+      "maxY" : 5247,
+      "startX" : 128,
+      "startY" : 128,
+      "endX" : 151,
+      "endY" : 151
+    }, {
+      "level" : 0,
+      "minX" : 2112,
+      "minY" : 5248,
+      "maxX" : 2175,
+      "maxY" : 5311,
+      "startX" : 8,
+      "startY" : 16,
+      "endX" : 63,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 2168,
+      "minY" : 5248,
+      "maxX" : 2175,
+      "maxY" : 5311,
+      "startX" : 64,
+      "startY" : 16,
+      "endX" : 71,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 2112,
+      "minY" : 5296,
+      "maxX" : 2175,
+      "maxY" : 5311,
+      "startX" : 8,
+      "startY" : 64,
+      "endX" : 63,
+      "endY" : 79
+    }, {
+      "level" : 0,
+      "minX" : 2168,
+      "minY" : 5296,
+      "maxX" : 2175,
+      "maxY" : 5311,
+      "startX" : 64,
+      "startY" : 64,
+      "endX" : 71,
+      "endY" : 79
+    }, {
+      "level" : 0,
+      "minX" : 2304,
+      "minY" : 5184,
+      "maxX" : 2367,
+      "maxY" : 5247,
+      "startX" : 96,
+      "startY" : 0,
+      "endX" : 127,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 2336,
+      "minY" : 5184,
+      "maxX" : 2367,
+      "maxY" : 5247,
+      "startX" : 128,
+      "startY" : 0,
+      "endX" : 159,
+      "endY" : 63
+    } ],
+    "minX" : 0,
+    "minY" : 0,
+    "maxX" : 159,
+    "maxY" : 167
+  }
+}, {
+  "id" : 25,
+  "definition" : {
+    "id" : 25,
+    "map" : "asgarnia_ice_dungeon",
+    "name" : "Asgarnia Ice Dungeon",
+    "position" : 48981342,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 100,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 2944,
+      "minY" : 9536,
+      "maxX" : 3071,
+      "maxY" : 9663,
+      "startX" : 2944,
+      "startY" : 9536,
+      "endX" : 3071,
+      "endY" : 9663
+    }, {
+      "level" : 0,
+      "minX" : 2912,
+      "minY" : 9632,
+      "maxX" : 2943,
+      "maxY" : 9663,
+      "startX" : 2912,
+      "startY" : 9632,
+      "endX" : 2943,
+      "endY" : 9663
+    } ],
+    "minX" : 2912,
+    "minY" : 9536,
+    "maxX" : 3071,
+    "maxY" : 9663
+  }
+}, {
+  "id" : 26,
+  "definition" : {
+    "id" : 26,
+    "map" : "dorgeshkaan",
+    "name" : "Dorgesh-Kaan",
+    "position" : 44569824,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 100,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 2688,
+      "minY" : 5248,
+      "maxX" : 2751,
+      "maxY" : 5311,
+      "startX" : 0,
+      "startY" : 0,
+      "endX" : 63,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 2688,
+      "minY" : 5312,
+      "maxX" : 2751,
+      "maxY" : 5375,
+      "startX" : 0,
+      "startY" : 64,
+      "endX" : 63,
+      "endY" : 127
+    }, {
+      "level" : 1,
+      "minX" : 2688,
+      "minY" : 5248,
+      "maxX" : 2751,
+      "maxY" : 5311,
+      "startX" : 96,
+      "startY" : 64,
+      "endX" : 127,
+      "endY" : 127
+    }, {
+      "level" : 1,
+      "minX" : 2720,
+      "minY" : 5248,
+      "maxX" : 2751,
+      "maxY" : 5311,
+      "startX" : 128,
+      "startY" : 64,
+      "endX" : 159,
+      "endY" : 127
+    }, {
+      "level" : 1,
+      "minX" : 2688,
+      "minY" : 5312,
+      "maxX" : 2751,
+      "maxY" : 5375,
+      "startX" : 96,
+      "startY" : 128,
+      "endX" : 127,
+      "endY" : 191
+    }, {
+      "level" : 1,
+      "minX" : 2720,
+      "minY" : 5312,
+      "maxX" : 2751,
+      "maxY" : 5375,
+      "startX" : 128,
+      "startY" : 128,
+      "endX" : 159,
+      "endY" : 191
+    }, {
+      "level" : 2,
+      "minX" : 2688,
+      "minY" : 5248,
+      "maxX" : 2751,
+      "maxY" : 5311,
+      "startX" : 192,
+      "startY" : 128,
+      "endX" : 255,
+      "endY" : 191
+    }, {
+      "level" : 2,
+      "minX" : 2688,
+      "minY" : 5312,
+      "maxX" : 2751,
+      "maxY" : 5375,
+      "startX" : 192,
+      "startY" : 192,
+      "endX" : 255,
+      "endY" : 255
+    } ],
+    "minX" : 0,
+    "minY" : 0,
+    "maxX" : 255,
+    "maxY" : 255
+  }
+}, {
+  "id" : 27,
+  "definition" : {
+    "id" : 27,
+    "map" : "mosleharmless_cave",
+    "name" : "Mos Le'Harmless Cave",
+    "position" : 61859007,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 100,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 3712,
+      "minY" : 9344,
+      "maxX" : 3775,
+      "maxY" : 9407,
+      "startX" : 3712,
+      "startY" : 9344,
+      "endX" : 3775,
+      "endY" : 9407
+    }, {
+      "level" : 0,
+      "minX" : 3712,
+      "minY" : 9408,
+      "maxX" : 3839,
+      "maxY" : 9471,
+      "startX" : 3712,
+      "startY" : 9408,
+      "endX" : 3839,
+      "endY" : 9471
+    } ],
+    "minX" : 3712,
+    "minY" : 9344,
+    "maxX" : 3839,
+    "maxY" : 9471
+  }
+}, {
+  "id" : 28,
+  "definition" : {
+    "id" : 28,
+    "map" : "main",
+    "name" : "RuneScape Surface",
+    "position" : 52956320,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 75,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 1728,
+      "minY" : 3072,
+      "maxX" : 2047,
+      "maxY" : 3327,
+      "startX" : 2048,
+      "startY" : 2752,
+      "endX" : 2367,
+      "endY" : 3007
+    }, {
+      "level" : 0,
+      "minX" : 2368,
+      "minY" : 2496,
+      "maxX" : 3903,
+      "maxY" : 3007,
+      "startX" : 2368,
+      "startY" : 2496,
+      "endX" : 3903,
+      "endY" : 3007
+    }, {
+      "level" : 0,
+      "minX" : 2048,
+      "minY" : 3008,
+      "maxX" : 3903,
+      "maxY" : 4159,
+      "startX" : 2048,
+      "startY" : 3008,
+      "endX" : 3903,
+      "endY" : 4159
+    } ],
+    "minX" : 2048,
+    "minY" : 2496,
+    "maxX" : 3903,
+    "maxY" : 4159
+  }
+}, {
+  "id" : 29,
+  "definition" : {
+    "id" : 29,
+    "map" : "ourania",
+    "name" : "Ourania Altar",
+    "position" : 54006496,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 200,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 3264,
+      "minY" : 4800,
+      "maxX" : 3327,
+      "maxY" : 4863,
+      "startX" : 3264,
+      "startY" : 4800,
+      "endX" : 3327,
+      "endY" : 4863
+    } ],
+    "minX" : 3264,
+    "minY" : 4800,
+    "maxX" : 3327,
+    "maxY" : 4863
+  }
+}, {
+  "id" : 30,
+  "definition" : {
+    "id" : 30,
+    "map" : "undead_dungeon",
+    "name" : "Lair of Tarn Razorlor",
+    "position" : 51909076,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 100,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 3136,
+      "minY" : 4544,
+      "maxX" : 3199,
+      "maxY" : 4607,
+      "startX" : 0,
+      "startY" : 8,
+      "endX" : 63,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 3136,
+      "minY" : 4600,
+      "maxX" : 3199,
+      "maxY" : 4607,
+      "startX" : 0,
+      "startY" : 64,
+      "endX" : 63,
+      "endY" : 71
+    }, {
+      "level" : 1,
+      "minX" : 3136,
+      "minY" : 4544,
+      "maxX" : 3199,
+      "maxY" : 4607,
+      "startX" : 96,
+      "startY" : 8,
+      "endX" : 127,
+      "endY" : 63
+    }, {
+      "level" : 1,
+      "minX" : 3168,
+      "minY" : 4544,
+      "maxX" : 3199,
+      "maxY" : 4607,
+      "startX" : 128,
+      "startY" : 8,
+      "endX" : 159,
+      "endY" : 63
+    }, {
+      "level" : 1,
+      "minX" : 3136,
+      "minY" : 4600,
+      "maxX" : 3199,
+      "maxY" : 4607,
+      "startX" : 96,
+      "startY" : 64,
+      "endX" : 127,
+      "endY" : 71
+    }, {
+      "level" : 1,
+      "minX" : 3168,
+      "minY" : 4600,
+      "maxX" : 3199,
+      "maxY" : 4607,
+      "startX" : 128,
+      "startY" : 64,
+      "endX" : 159,
+      "endY" : 71
+    }, {
+      "level" : 2,
+      "minX" : 3136,
+      "minY" : 4544,
+      "maxX" : 3199,
+      "maxY" : 4607,
+      "startX" : 192,
+      "startY" : 8,
+      "endX" : 255,
+      "endY" : 63
+    }, {
+      "level" : 2,
+      "minX" : 3136,
+      "minY" : 4600,
+      "maxX" : 3199,
+      "maxY" : 4607,
+      "startX" : 192,
+      "startY" : 64,
+      "endX" : 255,
+      "endY" : 71
+    }, {
+      "level" : 1,
+      "minX" : 3136,
+      "minY" : 4536,
+      "maxX" : 3199,
+      "maxY" : 4543,
+      "startX" : 96,
+      "startY" : 0,
+      "endX" : 127,
+      "endY" : 7
+    }, {
+      "level" : 1,
+      "minX" : 3168,
+      "minY" : 4536,
+      "maxX" : 3199,
+      "maxY" : 4543,
+      "startX" : 128,
+      "startY" : 0,
+      "endX" : 159,
+      "endY" : 7
+    }, {
+      "level" : 2,
+      "minX" : 3136,
+      "minY" : 4536,
+      "maxX" : 3199,
+      "maxY" : 4543,
+      "startX" : 192,
+      "startY" : 0,
+      "endX" : 255,
+      "endY" : 7
+    }, {
+      "level" : 0,
+      "minX" : 3136,
+      "minY" : 4640,
+      "maxX" : 3175,
+      "maxY" : 4671,
+      "startX" : 32,
+      "startY" : 72,
+      "endX" : 63,
+      "endY" : 103
+    }, {
+      "level" : 0,
+      "minX" : 3168,
+      "minY" : 4640,
+      "maxX" : 3175,
+      "maxY" : 4671,
+      "startX" : 64,
+      "startY" : 72,
+      "endX" : 71,
+      "endY" : 103
+    } ],
+    "minX" : 0,
+    "minY" : 0,
+    "maxX" : 255,
+    "maxY" : 103
+  }
+}, {
+  "id" : 31,
+  "definition" : {
+    "id" : 31,
+    "map" : "misthalin_underground",
+    "name" : "Misthalin Underground",
+    "position" : 51914144,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 50,
+    "sections" : [ {
+      "level" : 2,
+      "minX" : 3200,
+      "minY" : 9472,
+      "maxX" : 3263,
+      "maxY" : 9535,
+      "startX" : 3200,
+      "startY" : 9472,
+      "endX" : 3263,
+      "endY" : 9535
+    }, {
+      "level" : 0,
+      "minX" : 3264,
+      "minY" : 9600,
+      "maxX" : 3327,
+      "maxY" : 9663,
+      "startX" : 3264,
+      "startY" : 9600,
+      "endX" : 3327,
+      "endY" : 9663
+    }, {
+      "level" : 0,
+      "minX" : 3136,
+      "minY" : 9792,
+      "maxX" : 3199,
+      "maxY" : 9919,
+      "startX" : 3136,
+      "startY" : 9792,
+      "endX" : 3199,
+      "endY" : 9919
+    }, {
+      "level" : 0,
+      "minX" : 3200,
+      "minY" : 9728,
+      "maxX" : 3263,
+      "maxY" : 9919,
+      "startX" : 3200,
+      "startY" : 9728,
+      "endX" : 3263,
+      "endY" : 9919
+    }, {
+      "level" : 0,
+      "minX" : 3072,
+      "minY" : 9728,
+      "maxX" : 3135,
+      "maxY" : 9919,
+      "startX" : 3072,
+      "startY" : 9728,
+      "endX" : 3135,
+      "endY" : 9919
+    }, {
+      "level" : 0,
+      "minX" : 3072,
+      "minY" : 9536,
+      "maxX" : 3263,
+      "maxY" : 9727,
+      "startX" : 3072,
+      "startY" : 9536,
+      "endX" : 3263,
+      "endY" : 9727
+    }, {
+      "level" : 0,
+      "minX" : 3072,
+      "minY" : 9920,
+      "maxX" : 3135,
+      "maxY" : 9983,
+      "startX" : 3072,
+      "startY" : 9920,
+      "endX" : 3135,
+      "endY" : 9983
+    }, {
+      "level" : 0,
+      "minX" : 3104,
+      "minY" : 9984,
+      "maxX" : 3135,
+      "maxY" : 10007,
+      "startX" : 3104,
+      "startY" : 9984,
+      "endX" : 3135,
+      "endY" : 10007
+    }, {
+      "level" : 0,
+      "minX" : 3136,
+      "minY" : 9744,
+      "maxX" : 3199,
+      "maxY" : 9791,
+      "startX" : 3136,
+      "startY" : 9744,
+      "endX" : 3199,
+      "endY" : 9791
+    }, {
+      "level" : 0,
+      "minX" : 3264,
+      "minY" : 9856,
+      "maxX" : 3295,
+      "maxY" : 9919,
+      "startX" : 3264,
+      "startY" : 9856,
+      "endX" : 3295,
+      "endY" : 9919
+    } ],
+    "minX" : 3072,
+    "minY" : 9472,
+    "maxX" : 3327,
+    "maxY" : 10007
+  }
+}, {
+  "id" : 32,
+  "definition" : {
+    "id" : 32,
+    "map" : "tutorial3_1",
+    "name" : "Tutorial Cellar",
+    "position" : 60298080,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 200,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 3672,
+      "minY" : 4928,
+      "maxX" : 3703,
+      "maxY" : 4991,
+      "startX" : 24,
+      "startY" : 0,
+      "endX" : 55,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 3648,
+      "minY" : 4952,
+      "maxX" : 3671,
+      "maxY" : 4975,
+      "startX" : 0,
+      "startY" : 24,
+      "endX" : 23,
+      "endY" : 47
+    } ],
+    "minX" : 0,
+    "minY" : 0,
+    "maxX" : 55,
+    "maxY" : 63
+  }
+}, {
+  "id" : 33,
+  "definition" : {
+    "id" : 33,
+    "map" : "tutorial3_2",
+    "name" : "Tutorial Cellar",
+    "position" : 60298080,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 200,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 3672,
+      "minY" : 4928,
+      "maxX" : 3687,
+      "maxY" : 4935,
+      "startX" : 24,
+      "startY" : 0,
+      "endX" : 39,
+      "endY" : 7
+    }, {
+      "level" : 0,
+      "minX" : 3672,
+      "minY" : 4936,
+      "maxX" : 3679,
+      "maxY" : 4951,
+      "startX" : 24,
+      "startY" : 8,
+      "endX" : 31,
+      "endY" : 23
+    }, {
+      "level" : 0,
+      "minX" : 3704,
+      "minY" : 4928,
+      "maxX" : 3711,
+      "maxY" : 4943,
+      "startX" : 32,
+      "startY" : 8,
+      "endX" : 39,
+      "endY" : 23
+    }, {
+      "level" : 0,
+      "minX" : 3648,
+      "minY" : 4952,
+      "maxX" : 3703,
+      "maxY" : 4991,
+      "startX" : 0,
+      "startY" : 24,
+      "endX" : 55,
+      "endY" : 63
+    } ],
+    "minX" : 0,
+    "minY" : 0,
+    "maxX" : 55,
+    "maxY" : 63
+  }
+}, {
+  "id" : 34,
+  "definition" : {
+    "id" : 34,
+    "map" : "tutorial3_3",
+    "name" : "Tutorial Cellar",
+    "position" : 60298080,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 200,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 3672,
+      "minY" : 4928,
+      "maxX" : 3687,
+      "maxY" : 4935,
+      "startX" : 24,
+      "startY" : 0,
+      "endX" : 39,
+      "endY" : 7
+    }, {
+      "level" : 0,
+      "minX" : 3672,
+      "minY" : 4936,
+      "maxX" : 3679,
+      "maxY" : 4951,
+      "startX" : 24,
+      "startY" : 8,
+      "endX" : 31,
+      "endY" : 23
+    }, {
+      "level" : 0,
+      "minX" : 3704,
+      "minY" : 4928,
+      "maxX" : 3711,
+      "maxY" : 4943,
+      "startX" : 32,
+      "startY" : 8,
+      "endX" : 39,
+      "endY" : 23
+    }, {
+      "level" : 0,
+      "minX" : 3648,
+      "minY" : 4928,
+      "maxX" : 3671,
+      "maxY" : 4951,
+      "startX" : 0,
+      "startY" : 24,
+      "endX" : 23,
+      "endY" : 47
+    }, {
+      "level" : 0,
+      "minX" : 3672,
+      "minY" : 4952,
+      "maxX" : 3703,
+      "maxY" : 4991,
+      "startX" : 24,
+      "startY" : 24,
+      "endX" : 55,
+      "endY" : 63
+    } ],
+    "minX" : 0,
+    "minY" : 0,
+    "maxX" : 55,
+    "maxY" : 63
+  }
+}, {
+  "id" : 35,
+  "definition" : {
+    "id" : 35,
+    "map" : "living_rock_caverns",
+    "name" : "Living Rock Caverns",
+    "position" : 59773952,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 100,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 3584,
+      "minY" : 5056,
+      "maxX" : 3711,
+      "maxY" : 5183,
+      "startX" : 3584,
+      "startY" : 5056,
+      "endX" : 3711,
+      "endY" : 5183
+    } ],
+    "minX" : 3584,
+    "minY" : 5056,
+    "maxX" : 3711,
+    "maxY" : 5183
+  }
+}, {
+  "id" : 36,
+  "definition" : {
+    "id" : 36,
+    "map" : "ancient_cavern",
+    "name" : "Ancient cavern",
+    "position" : 26531005,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 75,
+    "sections" : [ {
+      "level" : 1,
+      "minX" : 1728,
+      "minY" : 5312,
+      "maxX" : 1791,
+      "maxY" : 5375,
+      "startX" : 128,
+      "startY" : 64,
+      "endX" : 191,
+      "endY" : 127
+    }, {
+      "level" : 1,
+      "minX" : 1728,
+      "minY" : 5248,
+      "maxX" : 1791,
+      "maxY" : 5311,
+      "startX" : 128,
+      "startY" : 0,
+      "endX" : 191,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 1728,
+      "minY" : 5312,
+      "maxX" : 1791,
+      "maxY" : 5375,
+      "startX" : 0,
+      "startY" : 128,
+      "endX" : 63,
+      "endY" : 191
+    }, {
+      "level" : 0,
+      "minX" : 1600,
+      "minY" : 5248,
+      "maxX" : 1663,
+      "maxY" : 5311,
+      "startX" : 64,
+      "startY" : 48,
+      "endX" : 127,
+      "endY" : 63
+    }, {
+      "level" : 0,
+      "minX" : 1600,
+      "minY" : 5264,
+      "maxX" : 1663,
+      "maxY" : 5311,
+      "startX" : 64,
+      "startY" : 64,
+      "endX" : 127,
+      "endY" : 111
+    } ],
+    "minX" : 0,
+    "minY" : 0,
+    "maxX" : 191,
+    "maxY" : 191
+  }
+}, {
+  "id" : 37,
+  "definition" : {
+    "id" : 37,
+    "map" : "spirit_plane",
+    "name" : "Spirit Plane",
+    "position" : 60757436,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 75,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 3648,
+      "minY" : 5504,
+      "maxX" : 3775,
+      "maxY" : 5631,
+      "startX" : 3648,
+      "startY" : 5504,
+      "endX" : 3775,
+      "endY" : 5631
+    } ],
+    "minX" : 3648,
+    "minY" : 5504,
+    "maxX" : 3775,
+    "maxY" : 5631
+  }
+}, {
+  "id" : 38,
+  "definition" : {
+    "id" : 38,
+    "map" : "ft3_zanaris_HQ",
+    "name" : "Zanaris Fairy HQ",
+    "position" : 25694368,
+    "anInt9542" : 0,
+    "static" : true,
+    "anInt9547" : 100,
+    "sections" : [ {
+      "level" : 0,
+      "minX" : 1536,
+      "minY" : 4224,
+      "maxX" : 3071,
+      "maxY" : 1151,
+      "startX" : 1536,
+      "startY" : 4224,
+      "endX" : 3071,
+      "endY" : 1151
+    }, {
+      "level" : 0,
+      "minX" : 1536,
+      "minY" : 4224,
+      "maxX" : 1599,
+      "maxY" : 4287,
+      "startX" : 1536,
+      "startY" : 4224,
+      "endX" : 1599,
+      "endY" : 4287
+    } ],
+    "minX" : 1536,
+    "minY" : 4224,
+    "maxX" : 3071,
+    "maxY" : 4287
+  }
+} ]

@@ -1,0 +1,7825 @@
+[ {
+  "id" : 0,
+  "definition" : {
+    "id" : 0,
+    "bodyPartId" : 0,
+    "modelIds" : [ 230 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39799, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 1,
+  "definition" : {
+    "id" : 1,
+    "bodyPartId" : 0,
+    "modelIds" : [ 210 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39905, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 2,
+  "definition" : {
+    "id" : 2,
+    "bodyPartId" : 0,
+    "modelIds" : [ 214 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39949, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 3,
+  "definition" : {
+    "id" : 3,
+    "bodyPartId" : 0,
+    "modelIds" : [ 217 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39877, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 4,
+  "definition" : {
+    "id" : 4,
+    "bodyPartId" : 0,
+    "modelIds" : [ 223 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39943, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 5,
+  "definition" : {
+    "id" : 5,
+    "bodyPartId" : 0,
+    "modelIds" : [ 215 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39836, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 6,
+  "definition" : {
+    "id" : 6,
+    "bodyPartId" : 0,
+    "modelIds" : [ 235 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39723, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 7,
+  "definition" : {
+    "id" : 7,
+    "bodyPartId" : 0,
+    "modelIds" : [ 206 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39989, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 8,
+  "definition" : {
+    "id" : 8,
+    "bodyPartId" : 0,
+    "modelIds" : [ 203 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39883, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 9,
+  "definition" : {
+    "id" : 9,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60050 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 10,
+  "definition" : {
+    "id" : 10,
+    "bodyPartId" : 1,
+    "modelIds" : [ 249 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39254, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 11,
+  "definition" : {
+    "id" : 11,
+    "bodyPartId" : 1,
+    "modelIds" : [ 250 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38642, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 12,
+  "definition" : {
+    "id" : 12,
+    "bodyPartId" : 1,
+    "modelIds" : [ 251 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38096, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 13,
+  "definition" : {
+    "id" : 13,
+    "bodyPartId" : 1,
+    "modelIds" : [ 247 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39256, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 14,
+  "definition" : {
+    "id" : 14,
+    "bodyPartId" : 1,
+    "modelIds" : [ 246 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39223, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 15,
+  "definition" : {
+    "id" : 15,
+    "bodyPartId" : 1,
+    "modelIds" : [ 248 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39275, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 16,
+  "definition" : {
+    "id" : 16,
+    "bodyPartId" : 1,
+    "modelIds" : [ 253 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39227, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 17,
+  "definition" : {
+    "id" : 17,
+    "bodyPartId" : 1,
+    "modelIds" : [ 252 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39213, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 18,
+  "definition" : {
+    "id" : 18,
+    "bodyPartId" : 2,
+    "modelIds" : [ 292 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 19,
+  "definition" : {
+    "id" : 19,
+    "bodyPartId" : 2,
+    "modelIds" : [ 292, 322 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 20,
+  "definition" : {
+    "id" : 20,
+    "bodyPartId" : 2,
+    "modelIds" : [ 292, 326 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 21,
+  "definition" : {
+    "id" : 21,
+    "bodyPartId" : 2,
+    "modelIds" : [ 292, 320 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 22,
+  "definition" : {
+    "id" : 22,
+    "bodyPartId" : 2,
+    "modelIds" : [ 292, 327 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 23,
+  "definition" : {
+    "id" : 23,
+    "bodyPartId" : 2,
+    "modelIds" : [ 292, 324 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 24,
+  "definition" : {
+    "id" : 24,
+    "bodyPartId" : 2,
+    "modelIds" : [ 310 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 25,
+  "definition" : {
+    "id" : 25,
+    "bodyPartId" : 2,
+    "modelIds" : [ 40202 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 26,
+  "definition" : {
+    "id" : 26,
+    "bodyPartId" : 3,
+    "modelIds" : [ 151 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 27,
+  "definition" : {
+    "id" : 27,
+    "bodyPartId" : 3,
+    "modelIds" : [ 167 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 28,
+  "definition" : {
+    "id" : 28,
+    "bodyPartId" : 3,
+    "modelIds" : [ 170 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 29,
+  "definition" : {
+    "id" : 29,
+    "bodyPartId" : 3,
+    "modelIds" : [ 162 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 30,
+  "definition" : {
+    "id" : 30,
+    "bodyPartId" : 3,
+    "modelIds" : [ 163 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 31,
+  "definition" : {
+    "id" : 31,
+    "bodyPartId" : 3,
+    "modelIds" : [ 158 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 32,
+  "definition" : {
+    "id" : 32,
+    "bodyPartId" : 3,
+    "modelIds" : [ 158 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 33,
+  "definition" : {
+    "id" : 33,
+    "bodyPartId" : 4,
+    "modelIds" : [ 176 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 34,
+  "definition" : {
+    "id" : 34,
+    "bodyPartId" : 4,
+    "modelIds" : [ 10218 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 35,
+  "definition" : {
+    "id" : 35,
+    "bodyPartId" : 4,
+    "modelIds" : [ 176 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 36,
+  "definition" : {
+    "id" : 36,
+    "bodyPartId" : 5,
+    "modelIds" : [ 40250 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 37,
+  "definition" : {
+    "id" : 37,
+    "bodyPartId" : 5,
+    "modelIds" : [ 40252 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 38,
+  "definition" : {
+    "id" : 38,
+    "bodyPartId" : 5,
+    "modelIds" : [ 40265 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 39,
+  "definition" : {
+    "id" : 39,
+    "bodyPartId" : 5,
+    "modelIds" : [ 40257 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 40,
+  "definition" : {
+    "id" : 40,
+    "bodyPartId" : 5,
+    "modelIds" : [ 275 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 41,
+  "definition" : {
+    "id" : 41,
+    "bodyPartId" : 5,
+    "modelIds" : [ 275 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 42,
+  "definition" : {
+    "id" : 42,
+    "bodyPartId" : 6,
+    "modelIds" : [ 181 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 43,
+  "definition" : {
+    "id" : 43,
+    "bodyPartId" : 6,
+    "modelIds" : [ 183 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 44,
+  "definition" : {
+    "id" : 44,
+    "bodyPartId" : 6,
+    "modelIds" : [ 183 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 45,
+  "definition" : {
+    "id" : 45,
+    "bodyPartId" : 7,
+    "modelIds" : [ 403 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39170, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 46,
+  "definition" : {
+    "id" : 46,
+    "bodyPartId" : 7,
+    "modelIds" : [ 378 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39046, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 47,
+  "definition" : {
+    "id" : 47,
+    "bodyPartId" : 7,
+    "modelIds" : [ 387 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38904, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 48,
+  "definition" : {
+    "id" : 48,
+    "bodyPartId" : 7,
+    "modelIds" : [ 390 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38920, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 49,
+  "definition" : {
+    "id" : 49,
+    "bodyPartId" : 7,
+    "modelIds" : [ 393 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39154, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 50,
+  "definition" : {
+    "id" : 50,
+    "bodyPartId" : 7,
+    "modelIds" : [ 399 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39089, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 51,
+  "definition" : {
+    "id" : 51,
+    "bodyPartId" : 7,
+    "modelIds" : [ 391 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39014, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 52,
+  "definition" : {
+    "id" : 52,
+    "bodyPartId" : 7,
+    "modelIds" : [ 408 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38913, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 53,
+  "definition" : {
+    "id" : 53,
+    "bodyPartId" : 7,
+    "modelIds" : [ 382 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38971, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 54,
+  "definition" : {
+    "id" : 54,
+    "bodyPartId" : 7,
+    "modelIds" : [ 379 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39002, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 55,
+  "definition" : {
+    "id" : 55,
+    "bodyPartId" : 7,
+    "modelIds" : [ 379 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39002, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 56,
+  "definition" : {
+    "id" : 56,
+    "bodyPartId" : 9,
+    "modelIds" : [ 456 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 57,
+  "definition" : {
+    "id" : 57,
+    "bodyPartId" : 9,
+    "modelIds" : [ 469 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 58,
+  "definition" : {
+    "id" : 58,
+    "bodyPartId" : 9,
+    "modelIds" : [ 470 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 59,
+  "definition" : {
+    "id" : 59,
+    "bodyPartId" : 9,
+    "modelIds" : [ 471 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 60,
+  "definition" : {
+    "id" : 60,
+    "bodyPartId" : 9,
+    "modelIds" : [ 40419 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 61,
+  "definition" : {
+    "id" : 61,
+    "bodyPartId" : 10,
+    "modelIds" : [ 332 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 62,
+  "definition" : {
+    "id" : 62,
+    "bodyPartId" : 10,
+    "modelIds" : [ 40401 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 63,
+  "definition" : {
+    "id" : 63,
+    "bodyPartId" : 10,
+    "modelIds" : [ 346 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 64,
+  "definition" : {
+    "id" : 64,
+    "bodyPartId" : 10,
+    "modelIds" : [ 348 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 65,
+  "definition" : {
+    "id" : 65,
+    "bodyPartId" : 10,
+    "modelIds" : [ 343 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 66,
+  "definition" : {
+    "id" : 66,
+    "bodyPartId" : 10,
+    "modelIds" : [ 343 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 67,
+  "definition" : {
+    "id" : 67,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 68,
+  "definition" : {
+    "id" : 68,
+    "bodyPartId" : 11,
+    "modelIds" : [ 10706 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 69,
+  "definition" : {
+    "id" : 69,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 70,
+  "definition" : {
+    "id" : 70,
+    "bodyPartId" : 12,
+    "modelIds" : [ 40489 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 71,
+  "definition" : {
+    "id" : 71,
+    "bodyPartId" : 12,
+    "modelIds" : [ 433 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 72,
+  "definition" : {
+    "id" : 72,
+    "bodyPartId" : 12,
+    "modelIds" : [ 40488 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 73,
+  "definition" : {
+    "id" : 73,
+    "bodyPartId" : 12,
+    "modelIds" : [ 428 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 74,
+  "definition" : {
+    "id" : 74,
+    "bodyPartId" : 12,
+    "modelIds" : [ 421 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 75,
+  "definition" : {
+    "id" : 75,
+    "bodyPartId" : 12,
+    "modelIds" : [ 438 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 76,
+  "definition" : {
+    "id" : 76,
+    "bodyPartId" : 12,
+    "modelIds" : [ 40478 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 77,
+  "definition" : {
+    "id" : 77,
+    "bodyPartId" : 12,
+    "modelIds" : [ 429 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 78,
+  "definition" : {
+    "id" : 78,
+    "bodyPartId" : 12,
+    "modelIds" : [ 429 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 79,
+  "definition" : {
+    "id" : 79,
+    "bodyPartId" : 13,
+    "modelIds" : [ 358 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 80,
+  "definition" : {
+    "id" : 80,
+    "bodyPartId" : 13,
+    "modelIds" : [ 360 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 81,
+  "definition" : {
+    "id" : 81,
+    "bodyPartId" : 13,
+    "modelIds" : [ 360 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 82,
+  "definition" : {
+    "id" : 82,
+    "bodyPartId" : 6,
+    "modelIds" : [ 7117 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 83,
+  "definition" : {
+    "id" : 83,
+    "bodyPartId" : 13,
+    "modelIds" : [ 7118 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 84,
+  "definition" : {
+    "id" : 84,
+    "bodyPartId" : 4,
+    "modelIds" : [ 176 ],
+    "originalColours" : [ -22464 ],
+    "modifiedColours" : [ 6575 ],
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 85,
+  "definition" : {
+    "id" : 85,
+    "bodyPartId" : 5,
+    "modelIds" : [ 40251 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 86,
+  "definition" : {
+    "id" : 86,
+    "bodyPartId" : 5,
+    "modelIds" : [ 27623 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 87,
+  "definition" : {
+    "id" : 87,
+    "bodyPartId" : 5,
+    "modelIds" : [ 40263 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 88,
+  "definition" : {
+    "id" : 88,
+    "bodyPartId" : 5,
+    "modelIds" : [ 40266 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 89,
+  "definition" : {
+    "id" : 89,
+    "bodyPartId" : 5,
+    "modelIds" : [ 27622 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 90,
+  "definition" : {
+    "id" : 90,
+    "bodyPartId" : 5,
+    "modelIds" : [ 27625 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 91,
+  "definition" : {
+    "id" : 91,
+    "bodyPartId" : 0,
+    "modelIds" : [ 27633 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39668, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 92,
+  "definition" : {
+    "id" : 92,
+    "bodyPartId" : 0,
+    "modelIds" : [ 27627 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 40030, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 93,
+  "definition" : {
+    "id" : 93,
+    "bodyPartId" : 0,
+    "modelIds" : [ 27630 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39817, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 94,
+  "definition" : {
+    "id" : 94,
+    "bodyPartId" : 0,
+    "modelIds" : [ 27628 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39909, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 95,
+  "definition" : {
+    "id" : 95,
+    "bodyPartId" : 0,
+    "modelIds" : [ 27631 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39777, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 96,
+  "definition" : {
+    "id" : 96,
+    "bodyPartId" : 0,
+    "modelIds" : [ 27629 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39638, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 97,
+  "definition" : {
+    "id" : 97,
+    "bodyPartId" : 0,
+    "modelIds" : [ 27632 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39679, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 98,
+  "definition" : {
+    "id" : 98,
+    "bodyPartId" : 1,
+    "modelIds" : [ 27645 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39271, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 99,
+  "definition" : {
+    "id" : 99,
+    "bodyPartId" : 1,
+    "modelIds" : [ 27644 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39191, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 100,
+  "definition" : {
+    "id" : 100,
+    "bodyPartId" : 1,
+    "modelIds" : [ 27646 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39220, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 101,
+  "definition" : {
+    "id" : 101,
+    "bodyPartId" : 1,
+    "modelIds" : [ 27642 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39264, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 102,
+  "definition" : {
+    "id" : 102,
+    "bodyPartId" : 1,
+    "modelIds" : [ 27640 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39225, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 103,
+  "definition" : {
+    "id" : 103,
+    "bodyPartId" : 1,
+    "modelIds" : [ 27643 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39221, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 104,
+  "definition" : {
+    "id" : 104,
+    "bodyPartId" : 1,
+    "modelIds" : [ 27641 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39277, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 105,
+  "definition" : {
+    "id" : 105,
+    "bodyPartId" : 3,
+    "modelIds" : [ 27634 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 106,
+  "definition" : {
+    "id" : 106,
+    "bodyPartId" : 3,
+    "modelIds" : [ 27635 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 107,
+  "definition" : {
+    "id" : 107,
+    "bodyPartId" : 3,
+    "modelIds" : [ 27638 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 108,
+  "definition" : {
+    "id" : 108,
+    "bodyPartId" : 3,
+    "modelIds" : [ 27639 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 109,
+  "definition" : {
+    "id" : 109,
+    "bodyPartId" : 3,
+    "modelIds" : [ 27636 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 110,
+  "definition" : {
+    "id" : 110,
+    "bodyPartId" : 3,
+    "modelIds" : [ 27637 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 111,
+  "definition" : {
+    "id" : 111,
+    "bodyPartId" : 2,
+    "modelIds" : [ 27648 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 112,
+  "definition" : {
+    "id" : 112,
+    "bodyPartId" : 2,
+    "modelIds" : [ 27563 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 113,
+  "definition" : {
+    "id" : 113,
+    "bodyPartId" : 2,
+    "modelIds" : [ 27647 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 114,
+  "definition" : {
+    "id" : 114,
+    "bodyPartId" : 2,
+    "modelIds" : [ 25864 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 115,
+  "definition" : {
+    "id" : 115,
+    "bodyPartId" : 2,
+    "modelIds" : [ 27650 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 116,
+  "definition" : {
+    "id" : 116,
+    "bodyPartId" : 2,
+    "modelIds" : [ 27649 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 117,
+  "definition" : {
+    "id" : 117,
+    "bodyPartId" : 4,
+    "modelIds" : [ 24553 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 118,
+  "definition" : {
+    "id" : 118,
+    "bodyPartId" : 4,
+    "modelIds" : [ 24553 ],
+    "originalColours" : [ -22464 ],
+    "modifiedColours" : [ 6575 ],
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 119,
+  "definition" : {
+    "id" : 119,
+    "bodyPartId" : 4,
+    "modelIds" : [ 24554 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 120,
+  "definition" : {
+    "id" : 120,
+    "bodyPartId" : 4,
+    "modelIds" : [ 24554 ],
+    "originalColours" : [ -22464 ],
+    "modifiedColours" : [ 6575 ],
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 121,
+  "definition" : {
+    "id" : 121,
+    "bodyPartId" : 4,
+    "modelIds" : [ 24555 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 122,
+  "definition" : {
+    "id" : 122,
+    "bodyPartId" : 4,
+    "modelIds" : [ 24555 ],
+    "originalColours" : [ -22464, -22483 ],
+    "modifiedColours" : [ 6575, 6565 ],
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 123,
+  "definition" : {
+    "id" : 123,
+    "bodyPartId" : 4,
+    "modelIds" : [ 24556 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 124,
+  "definition" : {
+    "id" : 124,
+    "bodyPartId" : 4,
+    "modelIds" : [ 24556 ],
+    "originalColours" : [ -22464, -22483 ],
+    "modifiedColours" : [ 6575, 6565 ],
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 125,
+  "definition" : {
+    "id" : 125,
+    "bodyPartId" : 4,
+    "modelIds" : [ 24557 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 126,
+  "definition" : {
+    "id" : 126,
+    "bodyPartId" : 4,
+    "modelIds" : [ 24557 ],
+    "originalColours" : [ -22464, -22483 ],
+    "modifiedColours" : [ 6575, 6565 ],
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 127,
+  "definition" : {
+    "id" : 127,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : [ -22464 ],
+    "modifiedColours" : [ 6575 ],
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 128,
+  "definition" : {
+    "id" : 128,
+    "bodyPartId" : 12,
+    "modelIds" : [ 40487 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 129,
+  "definition" : {
+    "id" : 129,
+    "bodyPartId" : 12,
+    "modelIds" : [ 40475 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 130,
+  "definition" : {
+    "id" : 130,
+    "bodyPartId" : 12,
+    "modelIds" : [ 40484 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 131,
+  "definition" : {
+    "id" : 131,
+    "bodyPartId" : 12,
+    "modelIds" : [ 27653 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 132,
+  "definition" : {
+    "id" : 132,
+    "bodyPartId" : 12,
+    "modelIds" : [ 40481 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 133,
+  "definition" : {
+    "id" : 133,
+    "bodyPartId" : 12,
+    "modelIds" : [ 27651 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 134,
+  "definition" : {
+    "id" : 134,
+    "bodyPartId" : 12,
+    "modelIds" : [ 27652 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 135,
+  "definition" : {
+    "id" : 135,
+    "bodyPartId" : 7,
+    "modelIds" : [ 16458 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39049, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 136,
+  "definition" : {
+    "id" : 136,
+    "bodyPartId" : 7,
+    "modelIds" : [ 16453 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38909, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 137,
+  "definition" : {
+    "id" : 137,
+    "bodyPartId" : 7,
+    "modelIds" : [ 16460 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38918, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 138,
+  "definition" : {
+    "id" : 138,
+    "bodyPartId" : 7,
+    "modelIds" : [ 16457 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39158, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 139,
+  "definition" : {
+    "id" : 139,
+    "bodyPartId" : 7,
+    "modelIds" : [ 27664 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39161, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 140,
+  "definition" : {
+    "id" : 140,
+    "bodyPartId" : 7,
+    "modelIds" : [ 27660 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39072, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 141,
+  "definition" : {
+    "id" : 141,
+    "bodyPartId" : 7,
+    "modelIds" : [ 27662 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38935, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 142,
+  "definition" : {
+    "id" : 142,
+    "bodyPartId" : 7,
+    "modelIds" : [ 16454 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39056, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 143,
+  "definition" : {
+    "id" : 143,
+    "bodyPartId" : 7,
+    "modelIds" : [ 27663 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38949, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 144,
+  "definition" : {
+    "id" : 144,
+    "bodyPartId" : 7,
+    "modelIds" : [ 27661 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39071, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 145,
+  "definition" : {
+    "id" : 145,
+    "bodyPartId" : 7,
+    "modelIds" : [ 27658 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39030, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 146,
+  "definition" : {
+    "id" : 146,
+    "bodyPartId" : 7,
+    "modelIds" : [ 27659 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39062, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 147,
+  "definition" : {
+    "id" : 147,
+    "bodyPartId" : 10,
+    "modelIds" : [ 27670 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 148,
+  "definition" : {
+    "id" : 148,
+    "bodyPartId" : 10,
+    "modelIds" : [ 27666 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 149,
+  "definition" : {
+    "id" : 149,
+    "bodyPartId" : 10,
+    "modelIds" : [ 27665 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 150,
+  "definition" : {
+    "id" : 150,
+    "bodyPartId" : 10,
+    "modelIds" : [ 27668 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 151,
+  "definition" : {
+    "id" : 151,
+    "bodyPartId" : 10,
+    "modelIds" : [ 27669 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 152,
+  "definition" : {
+    "id" : 152,
+    "bodyPartId" : 10,
+    "modelIds" : [ 27667 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 153,
+  "definition" : {
+    "id" : 153,
+    "bodyPartId" : 9,
+    "modelIds" : [ 27673 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 154,
+  "definition" : {
+    "id" : 154,
+    "bodyPartId" : 9,
+    "modelIds" : [ 27675 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 155,
+  "definition" : {
+    "id" : 155,
+    "bodyPartId" : 9,
+    "modelIds" : [ 27672 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 156,
+  "definition" : {
+    "id" : 156,
+    "bodyPartId" : 9,
+    "modelIds" : [ 27674 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 157,
+  "definition" : {
+    "id" : 157,
+    "bodyPartId" : 9,
+    "modelIds" : [ 27671 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 158,
+  "definition" : {
+    "id" : 158,
+    "bodyPartId" : 9,
+    "modelIds" : [ 27676 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 159,
+  "definition" : {
+    "id" : 159,
+    "bodyPartId" : 11,
+    "modelIds" : [ 24559 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 160,
+  "definition" : {
+    "id" : 160,
+    "bodyPartId" : 11,
+    "modelIds" : [ 24559 ],
+    "originalColours" : [ -22464 ],
+    "modifiedColours" : [ 6575 ],
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 161,
+  "definition" : {
+    "id" : 161,
+    "bodyPartId" : 11,
+    "modelIds" : [ 24560 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 162,
+  "definition" : {
+    "id" : 162,
+    "bodyPartId" : 11,
+    "modelIds" : [ 24560 ],
+    "originalColours" : [ -22464 ],
+    "modifiedColours" : [ 6575 ],
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 163,
+  "definition" : {
+    "id" : 163,
+    "bodyPartId" : 11,
+    "modelIds" : [ 24561 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 164,
+  "definition" : {
+    "id" : 164,
+    "bodyPartId" : 11,
+    "modelIds" : [ 24561 ],
+    "originalColours" : [ -22464, -22483 ],
+    "modifiedColours" : [ 6575, 6565 ],
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 165,
+  "definition" : {
+    "id" : 165,
+    "bodyPartId" : 11,
+    "modelIds" : [ 24562 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 166,
+  "definition" : {
+    "id" : 166,
+    "bodyPartId" : 11,
+    "modelIds" : [ 24562 ],
+    "originalColours" : [ -22464, -22483 ],
+    "modifiedColours" : [ 6575, 6565 ],
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 167,
+  "definition" : {
+    "id" : 167,
+    "bodyPartId" : 11,
+    "modelIds" : [ 24563 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 168,
+  "definition" : {
+    "id" : 168,
+    "bodyPartId" : 11,
+    "modelIds" : [ 24563 ],
+    "originalColours" : [ -22464, -22483 ],
+    "modifiedColours" : [ 6575, 6565 ],
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 169,
+  "definition" : {
+    "id" : 169,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40240 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 40032, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 170,
+  "definition" : {
+    "id" : 170,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40235 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 40036, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 171,
+  "definition" : {
+    "id" : 171,
+    "bodyPartId" : 0,
+    "modelIds" : [ 214 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39669, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 172,
+  "definition" : {
+    "id" : 172,
+    "bodyPartId" : 0,
+    "modelIds" : [ 214 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39652, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 173,
+  "definition" : {
+    "id" : 173,
+    "bodyPartId" : 0,
+    "modelIds" : [ 217 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39576, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 174,
+  "definition" : {
+    "id" : 174,
+    "bodyPartId" : 0,
+    "modelIds" : [ 217 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39908, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 175,
+  "definition" : {
+    "id" : 175,
+    "bodyPartId" : 0,
+    "modelIds" : [ 223 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 40010, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 176,
+  "definition" : {
+    "id" : 176,
+    "bodyPartId" : 0,
+    "modelIds" : [ 223 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39681, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 177,
+  "definition" : {
+    "id" : 177,
+    "bodyPartId" : 0,
+    "modelIds" : [ 215 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39836, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 178,
+  "definition" : {
+    "id" : 178,
+    "bodyPartId" : 0,
+    "modelIds" : [ 215 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39822, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 179,
+  "definition" : {
+    "id" : 179,
+    "bodyPartId" : 0,
+    "modelIds" : [ 235 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39694, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 180,
+  "definition" : {
+    "id" : 180,
+    "bodyPartId" : 0,
+    "modelIds" : [ 235 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39672, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 181,
+  "definition" : {
+    "id" : 181,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40230 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 40039, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 182,
+  "definition" : {
+    "id" : 182,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40227 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39711, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 183,
+  "definition" : {
+    "id" : 183,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40230 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39959, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 184,
+  "definition" : {
+    "id" : 184,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40231 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 40028, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 185,
+  "definition" : {
+    "id" : 185,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40221 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39950, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 186,
+  "definition" : {
+    "id" : 186,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40232 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39625, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 187,
+  "definition" : {
+    "id" : 187,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40233 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39709, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 188,
+  "definition" : {
+    "id" : 188,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40223 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39860, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 189,
+  "definition" : {
+    "id" : 189,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40222 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 40050, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 190,
+  "definition" : {
+    "id" : 190,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40239 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 40027, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 191,
+  "definition" : {
+    "id" : 191,
+    "bodyPartId" : 0,
+    "modelIds" : [ 43525 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 40021, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 192,
+  "definition" : {
+    "id" : 192,
+    "bodyPartId" : 0,
+    "modelIds" : [ 27628 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39968, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 193,
+  "definition" : {
+    "id" : 193,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40243 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 40054, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 194,
+  "definition" : {
+    "id" : 194,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40229 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39882, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 195,
+  "definition" : {
+    "id" : 195,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40242 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39963, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 196,
+  "definition" : {
+    "id" : 196,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40220 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39936, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 197,
+  "definition" : {
+    "id" : 197,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40238 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39912, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 198,
+  "definition" : {
+    "id" : 198,
+    "bodyPartId" : 0,
+    "modelIds" : [ 40234 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39788, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 199,
+  "definition" : {
+    "id" : 199,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40461 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38998, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 200,
+  "definition" : {
+    "id" : 200,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40471 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39059, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 201,
+  "definition" : {
+    "id" : 201,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40440 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39120, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 202,
+  "definition" : {
+    "id" : 202,
+    "bodyPartId" : 7,
+    "modelIds" : [ 393 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39004, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 203,
+  "definition" : {
+    "id" : 203,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40451 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39129, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 204,
+  "definition" : {
+    "id" : 204,
+    "bodyPartId" : 7,
+    "modelIds" : [ 391 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39101, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 205,
+  "definition" : {
+    "id" : 205,
+    "bodyPartId" : 7,
+    "modelIds" : [ 408 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38973, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 206,
+  "definition" : {
+    "id" : 206,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40437 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39081, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 207,
+  "definition" : {
+    "id" : 207,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40463 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38898, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 208,
+  "definition" : {
+    "id" : 208,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40463 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38898, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 209,
+  "definition" : {
+    "id" : 209,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40444 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39153, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 210,
+  "definition" : {
+    "id" : 210,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40468 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38965, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 211,
+  "definition" : {
+    "id" : 211,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40457 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38897, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 212,
+  "definition" : {
+    "id" : 212,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40466 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39097, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 213,
+  "definition" : {
+    "id" : 213,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40449 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39121, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 214,
+  "definition" : {
+    "id" : 214,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40459 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38943, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 215,
+  "definition" : {
+    "id" : 215,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40465 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39113, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 216,
+  "definition" : {
+    "id" : 216,
+    "bodyPartId" : 7,
+    "modelIds" : [ 16454 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38924, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 217,
+  "definition" : {
+    "id" : 217,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40467 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38993, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 218,
+  "definition" : {
+    "id" : 218,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40452 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38990, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 219,
+  "definition" : {
+    "id" : 219,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40455 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39132, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 220,
+  "definition" : {
+    "id" : 220,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40438 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39119, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 221,
+  "definition" : {
+    "id" : 221,
+    "bodyPartId" : 7,
+    "modelIds" : [ 378 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39079, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 222,
+  "definition" : {
+    "id" : 222,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40450 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38901, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 223,
+  "definition" : {
+    "id" : 223,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40447 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39012, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 224,
+  "definition" : {
+    "id" : 224,
+    "bodyPartId" : 7,
+    "modelIds" : [ 393 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39003, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 225,
+  "definition" : {
+    "id" : 225,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40453 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39096, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 226,
+  "definition" : {
+    "id" : 226,
+    "bodyPartId" : 7,
+    "modelIds" : [ 391 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39160, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 227,
+  "definition" : {
+    "id" : 227,
+    "bodyPartId" : 7,
+    "modelIds" : [ 408 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39070, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 228,
+  "definition" : {
+    "id" : 228,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40448 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39064, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 229,
+  "definition" : {
+    "id" : 229,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40442 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38947, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 230,
+  "definition" : {
+    "id" : 230,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40442 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38947, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 231,
+  "definition" : {
+    "id" : 231,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40446 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38914, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 232,
+  "definition" : {
+    "id" : 232,
+    "bodyPartId" : 7,
+    "modelIds" : [ 16453 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38989, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 233,
+  "definition" : {
+    "id" : 233,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40470 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38972, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 234,
+  "definition" : {
+    "id" : 234,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40458 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39038, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 235,
+  "definition" : {
+    "id" : 235,
+    "bodyPartId" : 7,
+    "modelIds" : [ 27664 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38933, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 236,
+  "definition" : {
+    "id" : 236,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40460 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39104, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 237,
+  "definition" : {
+    "id" : 237,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40445 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39171, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 238,
+  "definition" : {
+    "id" : 238,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40441 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39140, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 239,
+  "definition" : {
+    "id" : 239,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40469 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38984, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 240,
+  "definition" : {
+    "id" : 240,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40443 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38919, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 241,
+  "definition" : {
+    "id" : 241,
+    "bodyPartId" : 7,
+    "modelIds" : [ 40472 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38903, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 242,
+  "definition" : {
+    "id" : 242,
+    "bodyPartId" : 7,
+    "modelIds" : [ 27659 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 38952, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 243,
+  "definition" : {
+    "id" : 243,
+    "bodyPartId" : 7,
+    "modelIds" : [ 403 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39170, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 244,
+  "definition" : {
+    "id" : 244,
+    "bodyPartId" : 7,
+    "modelIds" : [ 403 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39170, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 245,
+  "definition" : {
+    "id" : 245,
+    "bodyPartId" : 0,
+    "modelIds" : [ 215 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39836, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 246,
+  "definition" : {
+    "id" : 246,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44908 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45006, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 247,
+  "definition" : {
+    "id" : 247,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44926 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45021, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 248,
+  "definition" : {
+    "id" : 248,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44917 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 39836, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 249,
+  "definition" : {
+    "id" : 249,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44918 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45016, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 250,
+  "definition" : {
+    "id" : 250,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44913 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45020, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 251,
+  "definition" : {
+    "id" : 251,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44915 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45007, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 252,
+  "definition" : {
+    "id" : 252,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44921 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45013, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 253,
+  "definition" : {
+    "id" : 253,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44923 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45022, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 254,
+  "definition" : {
+    "id" : 254,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44906 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45019, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 255,
+  "definition" : {
+    "id" : 255,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44923 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45011, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 256,
+  "definition" : {
+    "id" : 256,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44916 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45014, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 257,
+  "definition" : {
+    "id" : 257,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44910 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45009, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 258,
+  "definition" : {
+    "id" : 258,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44909 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45004, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 259,
+  "definition" : {
+    "id" : 259,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44912 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45005, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 260,
+  "definition" : {
+    "id" : 260,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44924 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45008, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 261,
+  "definition" : {
+    "id" : 261,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44914 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45015, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 262,
+  "definition" : {
+    "id" : 262,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44911 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45018, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 263,
+  "definition" : {
+    "id" : 263,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44919 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45002, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 264,
+  "definition" : {
+    "id" : 264,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44920 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45028, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 265,
+  "definition" : {
+    "id" : 265,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44922 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45003, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 266,
+  "definition" : {
+    "id" : 266,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44907 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45012, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 267,
+  "definition" : {
+    "id" : 267,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44925 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45023, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 268,
+  "definition" : {
+    "id" : 268,
+    "bodyPartId" : 0,
+    "modelIds" : [ 44927 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45010, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 269,
+  "definition" : {
+    "id" : 269,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44958 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44979, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 270,
+  "definition" : {
+    "id" : 270,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44946 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44966, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 271,
+  "definition" : {
+    "id" : 271,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44953 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44987, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 272,
+  "definition" : {
+    "id" : 272,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44950 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44972, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 273,
+  "definition" : {
+    "id" : 273,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44930 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44981, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 274,
+  "definition" : {
+    "id" : 274,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44959 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44992, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 275,
+  "definition" : {
+    "id" : 275,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44937 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44990, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 276,
+  "definition" : {
+    "id" : 276,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44940 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44988, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 277,
+  "definition" : {
+    "id" : 277,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44949 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44991, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 278,
+  "definition" : {
+    "id" : 278,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44952 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44998, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 279,
+  "definition" : {
+    "id" : 279,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44964 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44976, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 280,
+  "definition" : {
+    "id" : 280,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44963 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44983, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 281,
+  "definition" : {
+    "id" : 281,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44935 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44973, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 282,
+  "definition" : {
+    "id" : 282,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44942 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44984, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 283,
+  "definition" : {
+    "id" : 283,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44961 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44989, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 284,
+  "definition" : {
+    "id" : 284,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44947 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45000, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 285,
+  "definition" : {
+    "id" : 285,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44951 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44971, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 286,
+  "definition" : {
+    "id" : 286,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44931 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44994, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 287,
+  "definition" : {
+    "id" : 287,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44953 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44995, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 288,
+  "definition" : {
+    "id" : 288,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44956 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44968, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 289,
+  "definition" : {
+    "id" : 289,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44934 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44980, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 290,
+  "definition" : {
+    "id" : 290,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44945 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44985, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 291,
+  "definition" : {
+    "id" : 291,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44929 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44977, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 292,
+  "definition" : {
+    "id" : 292,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44939 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44969, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 293,
+  "definition" : {
+    "id" : 293,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44960 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44996, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 294,
+  "definition" : {
+    "id" : 294,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44944 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44982, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 295,
+  "definition" : {
+    "id" : 295,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44957 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44993, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 296,
+  "definition" : {
+    "id" : 296,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44954 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45001, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 297,
+  "definition" : {
+    "id" : 297,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44936 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44967, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 298,
+  "definition" : {
+    "id" : 298,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44932 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44978, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 299,
+  "definition" : {
+    "id" : 299,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44948 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44997, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 300,
+  "definition" : {
+    "id" : 300,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44965 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44974, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 301,
+  "definition" : {
+    "id" : 301,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44955 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44986, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 302,
+  "definition" : {
+    "id" : 302,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44941 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44975, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 303,
+  "definition" : {
+    "id" : 303,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44962 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44970, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 304,
+  "definition" : {
+    "id" : 304,
+    "bodyPartId" : 7,
+    "modelIds" : [ 44943 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 44999, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 305,
+  "definition" : {
+    "id" : 305,
+    "bodyPartId" : 1,
+    "modelIds" : [ 45032 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45024, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 306,
+  "definition" : {
+    "id" : 306,
+    "bodyPartId" : 1,
+    "modelIds" : [ 45031 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45027, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 307,
+  "definition" : {
+    "id" : 307,
+    "bodyPartId" : 1,
+    "modelIds" : [ 45029 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45025, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 308,
+  "definition" : {
+    "id" : 308,
+    "bodyPartId" : 1,
+    "modelIds" : [ 45030 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 45026, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 309,
+  "definition" : {
+    "id" : 309,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46344 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46431, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 310,
+  "definition" : {
+    "id" : 310,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46358 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46442, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 311,
+  "definition" : {
+    "id" : 311,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46439, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 312,
+  "definition" : {
+    "id" : 312,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46347 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46444, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 313,
+  "definition" : {
+    "id" : 313,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46367 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46445, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 314,
+  "definition" : {
+    "id" : 314,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46348 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46430, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 315,
+  "definition" : {
+    "id" : 315,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46364 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46443, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 316,
+  "definition" : {
+    "id" : 316,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46356 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46433, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 317,
+  "definition" : {
+    "id" : 317,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46369 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46400, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 318,
+  "definition" : {
+    "id" : 318,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46368 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46419, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 319,
+  "definition" : {
+    "id" : 319,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46385 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46417, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 320,
+  "definition" : {
+    "id" : 320,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46381 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46404, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 321,
+  "definition" : {
+    "id" : 321,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46370 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46397, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 322,
+  "definition" : {
+    "id" : 322,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46379 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46407, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 323,
+  "definition" : {
+    "id" : 323,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46383 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46414, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 324,
+  "definition" : {
+    "id" : 324,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46389 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46399, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 325,
+  "definition" : {
+    "id" : 325,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46390 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46408, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 326,
+  "definition" : {
+    "id" : 326,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46380 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46413, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 327,
+  "definition" : {
+    "id" : 327,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46361 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46432, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 328,
+  "definition" : {
+    "id" : 328,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46350 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46434, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 329,
+  "definition" : {
+    "id" : 329,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46351 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46440, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 330,
+  "definition" : {
+    "id" : 330,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46365 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46436, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 331,
+  "definition" : {
+    "id" : 331,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46366 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46435, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 332,
+  "definition" : {
+    "id" : 332,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46357 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46438, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 333,
+  "definition" : {
+    "id" : 333,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46355 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46448, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 334,
+  "definition" : {
+    "id" : 334,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46359 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46449, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 335,
+  "definition" : {
+    "id" : 335,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46376 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46398, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 336,
+  "definition" : {
+    "id" : 336,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46374 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46424, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 337,
+  "definition" : {
+    "id" : 337,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46388 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46406, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 338,
+  "definition" : {
+    "id" : 338,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46373 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46418, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 339,
+  "definition" : {
+    "id" : 339,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46386 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46420, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 340,
+  "definition" : {
+    "id" : 340,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46387 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46416, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 341,
+  "definition" : {
+    "id" : 341,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46382 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46412, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 342,
+  "definition" : {
+    "id" : 342,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46372 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46423, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 343,
+  "definition" : {
+    "id" : 343,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46377 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46405, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 344,
+  "definition" : {
+    "id" : 344,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46384 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46411, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 345,
+  "definition" : {
+    "id" : 345,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46345 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46437, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 346,
+  "definition" : {
+    "id" : 346,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46360 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46429, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 347,
+  "definition" : {
+    "id" : 347,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46352 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46428, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 348,
+  "definition" : {
+    "id" : 348,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46354 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46427, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 349,
+  "definition" : {
+    "id" : 349,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46346 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46447, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 350,
+  "definition" : {
+    "id" : 350,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46362 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46446, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 351,
+  "definition" : {
+    "id" : 351,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46363 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46441, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 352,
+  "definition" : {
+    "id" : 352,
+    "bodyPartId" : 0,
+    "modelIds" : [ 46349 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46450, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 353,
+  "definition" : {
+    "id" : 353,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46369 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46415, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 354,
+  "definition" : {
+    "id" : 354,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46368 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46425, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 355,
+  "definition" : {
+    "id" : 355,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46391 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46409, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 356,
+  "definition" : {
+    "id" : 356,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46378 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46403, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 357,
+  "definition" : {
+    "id" : 357,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46370 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46397, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 358,
+  "definition" : {
+    "id" : 358,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46379 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46421, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 359,
+  "definition" : {
+    "id" : 359,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46375 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46401, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 360,
+  "definition" : {
+    "id" : 360,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46389 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46410, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 361,
+  "definition" : {
+    "id" : 361,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46371 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46402, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 362,
+  "definition" : {
+    "id" : 362,
+    "bodyPartId" : 7,
+    "modelIds" : [ 46392 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ 46422, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 363,
+  "definition" : {
+    "id" : 363,
+    "bodyPartId" : 12,
+    "modelIds" : [ 46451 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 364,
+  "definition" : {
+    "id" : 364,
+    "bodyPartId" : 4,
+    "modelIds" : [ 176 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 365,
+  "definition" : {
+    "id" : 365,
+    "bodyPartId" : 4,
+    "modelIds" : [ 176 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 366,
+  "definition" : {
+    "id" : 366,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60063 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 367,
+  "definition" : {
+    "id" : 367,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60067 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 368,
+  "definition" : {
+    "id" : 368,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60059 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 369,
+  "definition" : {
+    "id" : 369,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60049 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 370,
+  "definition" : {
+    "id" : 370,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60055 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 371,
+  "definition" : {
+    "id" : 371,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60060 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 372,
+  "definition" : {
+    "id" : 372,
+    "bodyPartId" : 4,
+    "modelIds" : [ 176 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 373,
+  "definition" : {
+    "id" : 373,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60058 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 374,
+  "definition" : {
+    "id" : 374,
+    "bodyPartId" : 4,
+    "modelIds" : [ 176 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 375,
+  "definition" : {
+    "id" : 375,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60056 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 376,
+  "definition" : {
+    "id" : 376,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60065 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 377,
+  "definition" : {
+    "id" : 377,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60051 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 378,
+  "definition" : {
+    "id" : 378,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60062 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 379,
+  "definition" : {
+    "id" : 379,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60048 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 380,
+  "definition" : {
+    "id" : 380,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60057 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 381,
+  "definition" : {
+    "id" : 381,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60070 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 382,
+  "definition" : {
+    "id" : 382,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60068 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 383,
+  "definition" : {
+    "id" : 383,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60052 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 384,
+  "definition" : {
+    "id" : 384,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60066 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 385,
+  "definition" : {
+    "id" : 385,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60064 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 386,
+  "definition" : {
+    "id" : 386,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60061 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 387,
+  "definition" : {
+    "id" : 387,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60053 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 388,
+  "definition" : {
+    "id" : 388,
+    "bodyPartId" : 4,
+    "modelIds" : [ 60069 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 389,
+  "definition" : {
+    "id" : 389,
+    "bodyPartId" : 4,
+    "modelIds" : [ 176 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 390,
+  "definition" : {
+    "id" : 390,
+    "bodyPartId" : 4,
+    "modelIds" : [ 176 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 391,
+  "definition" : {
+    "id" : 391,
+    "bodyPartId" : 4,
+    "modelIds" : [ 176 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 392,
+  "definition" : {
+    "id" : 392,
+    "bodyPartId" : 4,
+    "modelIds" : [ 176 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 393,
+  "definition" : {
+    "id" : 393,
+    "bodyPartId" : 4,
+    "modelIds" : [ 176 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 394,
+  "definition" : {
+    "id" : 394,
+    "bodyPartId" : 4,
+    "modelIds" : [ 176 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 395,
+  "definition" : {
+    "id" : 395,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60194 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 396,
+  "definition" : {
+    "id" : 396,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60185 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 397,
+  "definition" : {
+    "id" : 397,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60170 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 398,
+  "definition" : {
+    "id" : 398,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60186 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 399,
+  "definition" : {
+    "id" : 399,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60189 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 400,
+  "definition" : {
+    "id" : 400,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60178 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 401,
+  "definition" : {
+    "id" : 401,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60184 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 402,
+  "definition" : {
+    "id" : 402,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60174 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 403,
+  "definition" : {
+    "id" : 403,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60179 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 404,
+  "definition" : {
+    "id" : 404,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60187 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 405,
+  "definition" : {
+    "id" : 405,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60167 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 406,
+  "definition" : {
+    "id" : 406,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60169 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 407,
+  "definition" : {
+    "id" : 407,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60190 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 408,
+  "definition" : {
+    "id" : 408,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60181 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 409,
+  "definition" : {
+    "id" : 409,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60191 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 410,
+  "definition" : {
+    "id" : 410,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60182 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 411,
+  "definition" : {
+    "id" : 411,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60196 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 412,
+  "definition" : {
+    "id" : 412,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60175 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 413,
+  "definition" : {
+    "id" : 413,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60188 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 414,
+  "definition" : {
+    "id" : 414,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60192 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 415,
+  "definition" : {
+    "id" : 415,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60183 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 416,
+  "definition" : {
+    "id" : 416,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60195 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 417,
+  "definition" : {
+    "id" : 417,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60177 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 418,
+  "definition" : {
+    "id" : 418,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60171 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 419,
+  "definition" : {
+    "id" : 419,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60197 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 420,
+  "definition" : {
+    "id" : 420,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60193 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 421,
+  "definition" : {
+    "id" : 421,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60166 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 422,
+  "definition" : {
+    "id" : 422,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60172 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 423,
+  "definition" : {
+    "id" : 423,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60173 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 424,
+  "definition" : {
+    "id" : 424,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60180 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 425,
+  "definition" : {
+    "id" : 425,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60168 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 426,
+  "definition" : {
+    "id" : 426,
+    "bodyPartId" : 10,
+    "modelIds" : [ 60176 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 427,
+  "definition" : {
+    "id" : 427,
+    "bodyPartId" : 6,
+    "modelIds" : [ 60032 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 428,
+  "definition" : {
+    "id" : 428,
+    "bodyPartId" : 6,
+    "modelIds" : [ 60042 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 429,
+  "definition" : {
+    "id" : 429,
+    "bodyPartId" : 6,
+    "modelIds" : [ 60041 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 430,
+  "definition" : {
+    "id" : 430,
+    "bodyPartId" : 6,
+    "modelIds" : [ 60036 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 431,
+  "definition" : {
+    "id" : 431,
+    "bodyPartId" : 6,
+    "modelIds" : [ 60040 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 432,
+  "definition" : {
+    "id" : 432,
+    "bodyPartId" : 6,
+    "modelIds" : [ 60034 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 433,
+  "definition" : {
+    "id" : 433,
+    "bodyPartId" : 6,
+    "modelIds" : [ 60044 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 434,
+  "definition" : {
+    "id" : 434,
+    "bodyPartId" : 6,
+    "modelIds" : [ 60046 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 435,
+  "definition" : {
+    "id" : 435,
+    "bodyPartId" : 6,
+    "modelIds" : [ 60045 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 436,
+  "definition" : {
+    "id" : 436,
+    "bodyPartId" : 6,
+    "modelIds" : [ 60033 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 437,
+  "definition" : {
+    "id" : 437,
+    "bodyPartId" : 6,
+    "modelIds" : [ 60037 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 438,
+  "definition" : {
+    "id" : 438,
+    "bodyPartId" : 6,
+    "modelIds" : [ 60047 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 439,
+  "definition" : {
+    "id" : 439,
+    "bodyPartId" : 6,
+    "modelIds" : [ 60035 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 440,
+  "definition" : {
+    "id" : 440,
+    "bodyPartId" : 6,
+    "modelIds" : [ 60039 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 441,
+  "definition" : {
+    "id" : 441,
+    "bodyPartId" : 6,
+    "modelIds" : [ 60038 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 442,
+  "definition" : {
+    "id" : 442,
+    "bodyPartId" : 6,
+    "modelIds" : [ 60043 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 443,
+  "definition" : {
+    "id" : 443,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60129 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 444,
+  "definition" : {
+    "id" : 444,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60135 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 445,
+  "definition" : {
+    "id" : 445,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60131 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 446,
+  "definition" : {
+    "id" : 446,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60132 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 447,
+  "definition" : {
+    "id" : 447,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60134 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 448,
+  "definition" : {
+    "id" : 448,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60133 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 449,
+  "definition" : {
+    "id" : 449,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60127 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 450,
+  "definition" : {
+    "id" : 450,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60125 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 451,
+  "definition" : {
+    "id" : 451,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60128 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 452,
+  "definition" : {
+    "id" : 452,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60130 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 453,
+  "definition" : {
+    "id" : 453,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60334 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 454,
+  "definition" : {
+    "id" : 454,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60126 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 455,
+  "definition" : {
+    "id" : 455,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60124 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 456,
+  "definition" : {
+    "id" : 456,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60123 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 457,
+  "definition" : {
+    "id" : 457,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60109 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 458,
+  "definition" : {
+    "id" : 458,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60122 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 459,
+  "definition" : {
+    "id" : 459,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60105 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 460,
+  "definition" : {
+    "id" : 460,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60108 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 461,
+  "definition" : {
+    "id" : 461,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60113 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 462,
+  "definition" : {
+    "id" : 462,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60117 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 463,
+  "definition" : {
+    "id" : 463,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60110 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 464,
+  "definition" : {
+    "id" : 464,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60119 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 465,
+  "definition" : {
+    "id" : 465,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60116 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 466,
+  "definition" : {
+    "id" : 466,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60112 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 467,
+  "definition" : {
+    "id" : 467,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60121 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 468,
+  "definition" : {
+    "id" : 468,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60106 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 469,
+  "definition" : {
+    "id" : 469,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60107 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 470,
+  "definition" : {
+    "id" : 470,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60115 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 471,
+  "definition" : {
+    "id" : 471,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60120 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 472,
+  "definition" : {
+    "id" : 472,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60111 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 473,
+  "definition" : {
+    "id" : 473,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60114 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 474,
+  "definition" : {
+    "id" : 474,
+    "bodyPartId" : 2,
+    "modelIds" : [ 60118 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 475,
+  "definition" : {
+    "id" : 475,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60250 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 476,
+  "definition" : {
+    "id" : 476,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60256 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 477,
+  "definition" : {
+    "id" : 477,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60255 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 478,
+  "definition" : {
+    "id" : 478,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60241 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 479,
+  "definition" : {
+    "id" : 479,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60261 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 480,
+  "definition" : {
+    "id" : 480,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60272 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 481,
+  "definition" : {
+    "id" : 481,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60269 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 482,
+  "definition" : {
+    "id" : 482,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60258 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 483,
+  "definition" : {
+    "id" : 483,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60264 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 484,
+  "definition" : {
+    "id" : 484,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60259 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 485,
+  "definition" : {
+    "id" : 485,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60262 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 486,
+  "definition" : {
+    "id" : 486,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60267 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 487,
+  "definition" : {
+    "id" : 487,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60263 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 488,
+  "definition" : {
+    "id" : 488,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60254 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 489,
+  "definition" : {
+    "id" : 489,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60268 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 490,
+  "definition" : {
+    "id" : 490,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60249 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 491,
+  "definition" : {
+    "id" : 491,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60245 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 492,
+  "definition" : {
+    "id" : 492,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60244 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 493,
+  "definition" : {
+    "id" : 493,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60271 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 494,
+  "definition" : {
+    "id" : 494,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60251 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 495,
+  "definition" : {
+    "id" : 495,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60270 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 496,
+  "definition" : {
+    "id" : 496,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60266 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 497,
+  "definition" : {
+    "id" : 497,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60246 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 498,
+  "definition" : {
+    "id" : 498,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60252 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 499,
+  "definition" : {
+    "id" : 499,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60260 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 500,
+  "definition" : {
+    "id" : 500,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60257 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 501,
+  "definition" : {
+    "id" : 501,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60247 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 502,
+  "definition" : {
+    "id" : 502,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60248 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 503,
+  "definition" : {
+    "id" : 503,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60243 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 504,
+  "definition" : {
+    "id" : 504,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60265 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 505,
+  "definition" : {
+    "id" : 505,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60253 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 506,
+  "definition" : {
+    "id" : 506,
+    "bodyPartId" : 12,
+    "modelIds" : [ 60242 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 507,
+  "definition" : {
+    "id" : 507,
+    "bodyPartId" : 11,
+    "modelIds" : [ 60229 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 508,
+  "definition" : {
+    "id" : 508,
+    "bodyPartId" : 11,
+    "modelIds" : [ 60221 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 509,
+  "definition" : {
+    "id" : 509,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 510,
+  "definition" : {
+    "id" : 510,
+    "bodyPartId" : 11,
+    "modelIds" : [ 60216 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 511,
+  "definition" : {
+    "id" : 511,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 512,
+  "definition" : {
+    "id" : 512,
+    "bodyPartId" : 11,
+    "modelIds" : [ 60226 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 513,
+  "definition" : {
+    "id" : 513,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 514,
+  "definition" : {
+    "id" : 514,
+    "bodyPartId" : 11,
+    "modelIds" : [ 60225 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 515,
+  "definition" : {
+    "id" : 515,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 516,
+  "definition" : {
+    "id" : 516,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 517,
+  "definition" : {
+    "id" : 517,
+    "bodyPartId" : 11,
+    "modelIds" : [ 60227 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 518,
+  "definition" : {
+    "id" : 518,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 519,
+  "definition" : {
+    "id" : 519,
+    "bodyPartId" : 11,
+    "modelIds" : [ 60222 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 520,
+  "definition" : {
+    "id" : 520,
+    "bodyPartId" : 11,
+    "modelIds" : [ 60217 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 521,
+  "definition" : {
+    "id" : 521,
+    "bodyPartId" : 11,
+    "modelIds" : [ 60218 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 522,
+  "definition" : {
+    "id" : 522,
+    "bodyPartId" : 11,
+    "modelIds" : [ 60228 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 523,
+  "definition" : {
+    "id" : 523,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 524,
+  "definition" : {
+    "id" : 524,
+    "bodyPartId" : 11,
+    "modelIds" : [ 60220 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 525,
+  "definition" : {
+    "id" : 525,
+    "bodyPartId" : 11,
+    "modelIds" : [ 60215 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 526,
+  "definition" : {
+    "id" : 526,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 527,
+  "definition" : {
+    "id" : 527,
+    "bodyPartId" : 11,
+    "modelIds" : [ 60223 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 528,
+  "definition" : {
+    "id" : 528,
+    "bodyPartId" : 11,
+    "modelIds" : [ 60230 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 529,
+  "definition" : {
+    "id" : 529,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 530,
+  "definition" : {
+    "id" : 530,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 531,
+  "definition" : {
+    "id" : 531,
+    "bodyPartId" : 11,
+    "modelIds" : [ 60219 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 532,
+  "definition" : {
+    "id" : 532,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 533,
+  "definition" : {
+    "id" : 533,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 534,
+  "definition" : {
+    "id" : 534,
+    "bodyPartId" : 11,
+    "modelIds" : [ 60231 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 535,
+  "definition" : {
+    "id" : 535,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 536,
+  "definition" : {
+    "id" : 536,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 537,
+  "definition" : {
+    "id" : 537,
+    "bodyPartId" : 11,
+    "modelIds" : [ 353 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 538,
+  "definition" : {
+    "id" : 538,
+    "bodyPartId" : 11,
+    "modelIds" : [ 60224 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 539,
+  "definition" : {
+    "id" : 539,
+    "bodyPartId" : 13,
+    "modelIds" : [ 60201 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 540,
+  "definition" : {
+    "id" : 540,
+    "bodyPartId" : 13,
+    "modelIds" : [ 60213 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 541,
+  "definition" : {
+    "id" : 541,
+    "bodyPartId" : 13,
+    "modelIds" : [ 60209 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 542,
+  "definition" : {
+    "id" : 542,
+    "bodyPartId" : 13,
+    "modelIds" : [ 60214 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 543,
+  "definition" : {
+    "id" : 543,
+    "bodyPartId" : 13,
+    "modelIds" : [ 60211 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 544,
+  "definition" : {
+    "id" : 544,
+    "bodyPartId" : 13,
+    "modelIds" : [ 60207 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 545,
+  "definition" : {
+    "id" : 545,
+    "bodyPartId" : 13,
+    "modelIds" : [ 60199 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 546,
+  "definition" : {
+    "id" : 546,
+    "bodyPartId" : 13,
+    "modelIds" : [ 60203 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 547,
+  "definition" : {
+    "id" : 547,
+    "bodyPartId" : 13,
+    "modelIds" : [ 60206 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 548,
+  "definition" : {
+    "id" : 548,
+    "bodyPartId" : 13,
+    "modelIds" : [ 60210 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 549,
+  "definition" : {
+    "id" : 549,
+    "bodyPartId" : 13,
+    "modelIds" : [ 60202 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 550,
+  "definition" : {
+    "id" : 550,
+    "bodyPartId" : 13,
+    "modelIds" : [ 60200 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 551,
+  "definition" : {
+    "id" : 551,
+    "bodyPartId" : 13,
+    "modelIds" : [ 60205 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 552,
+  "definition" : {
+    "id" : 552,
+    "bodyPartId" : 13,
+    "modelIds" : [ 60212 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 553,
+  "definition" : {
+    "id" : 553,
+    "bodyPartId" : 13,
+    "modelIds" : [ 60208 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 554,
+  "definition" : {
+    "id" : 554,
+    "bodyPartId" : 13,
+    "modelIds" : [ 60204 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 555,
+  "definition" : {
+    "id" : 555,
+    "bodyPartId" : 13,
+    "modelIds" : [ 60198 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 556,
+  "definition" : {
+    "id" : 556,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60298 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 557,
+  "definition" : {
+    "id" : 557,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60296 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 558,
+  "definition" : {
+    "id" : 558,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60299 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 559,
+  "definition" : {
+    "id" : 559,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60301 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 560,
+  "definition" : {
+    "id" : 560,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60302 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 561,
+  "definition" : {
+    "id" : 561,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60297 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 562,
+  "definition" : {
+    "id" : 562,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60300 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 563,
+  "definition" : {
+    "id" : 563,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60303 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 564,
+  "definition" : {
+    "id" : 564,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60335 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 565,
+  "definition" : {
+    "id" : 565,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60291 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 566,
+  "definition" : {
+    "id" : 566,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60288 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 567,
+  "definition" : {
+    "id" : 567,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60290 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 568,
+  "definition" : {
+    "id" : 568,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60278 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 569,
+  "definition" : {
+    "id" : 569,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60280 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 570,
+  "definition" : {
+    "id" : 570,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60294 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 571,
+  "definition" : {
+    "id" : 571,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60275 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 572,
+  "definition" : {
+    "id" : 572,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60283 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 573,
+  "definition" : {
+    "id" : 573,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60289 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 574,
+  "definition" : {
+    "id" : 574,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60277 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 575,
+  "definition" : {
+    "id" : 575,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60293 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 576,
+  "definition" : {
+    "id" : 576,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60286 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 577,
+  "definition" : {
+    "id" : 577,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60292 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 578,
+  "definition" : {
+    "id" : 578,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60282 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 579,
+  "definition" : {
+    "id" : 579,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60274 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 580,
+  "definition" : {
+    "id" : 580,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60273 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 581,
+  "definition" : {
+    "id" : 581,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60281 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 582,
+  "definition" : {
+    "id" : 582,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60276 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 583,
+  "definition" : {
+    "id" : 583,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60279 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 584,
+  "definition" : {
+    "id" : 584,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60285 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 585,
+  "definition" : {
+    "id" : 585,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60284 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 586,
+  "definition" : {
+    "id" : 586,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60287 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 587,
+  "definition" : {
+    "id" : 587,
+    "bodyPartId" : 9,
+    "modelIds" : [ 60295 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 588,
+  "definition" : {
+    "id" : 588,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60000 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 589,
+  "definition" : {
+    "id" : 589,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60009 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 590,
+  "definition" : {
+    "id" : 590,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60016 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 591,
+  "definition" : {
+    "id" : 591,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60012 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 592,
+  "definition" : {
+    "id" : 592,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60025 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 593,
+  "definition" : {
+    "id" : 593,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60003 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 594,
+  "definition" : {
+    "id" : 594,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60006 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 595,
+  "definition" : {
+    "id" : 595,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60007 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 596,
+  "definition" : {
+    "id" : 596,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60028 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 597,
+  "definition" : {
+    "id" : 597,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60021 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 598,
+  "definition" : {
+    "id" : 598,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60008 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 599,
+  "definition" : {
+    "id" : 599,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60005 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 600,
+  "definition" : {
+    "id" : 600,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60030 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 601,
+  "definition" : {
+    "id" : 601,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60010 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 602,
+  "definition" : {
+    "id" : 602,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60011 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 603,
+  "definition" : {
+    "id" : 603,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60014 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 604,
+  "definition" : {
+    "id" : 604,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60004 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 605,
+  "definition" : {
+    "id" : 605,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60023 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 606,
+  "definition" : {
+    "id" : 606,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60027 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 607,
+  "definition" : {
+    "id" : 607,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60022 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 608,
+  "definition" : {
+    "id" : 608,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60031 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 609,
+  "definition" : {
+    "id" : 609,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60026 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 610,
+  "definition" : {
+    "id" : 610,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60019 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 611,
+  "definition" : {
+    "id" : 611,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60015 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 612,
+  "definition" : {
+    "id" : 612,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60002 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 613,
+  "definition" : {
+    "id" : 613,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60001 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 614,
+  "definition" : {
+    "id" : 614,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60018 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 615,
+  "definition" : {
+    "id" : 615,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60013 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 616,
+  "definition" : {
+    "id" : 616,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60024 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 617,
+  "definition" : {
+    "id" : 617,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60017 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 618,
+  "definition" : {
+    "id" : 618,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60029 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 619,
+  "definition" : {
+    "id" : 619,
+    "bodyPartId" : 3,
+    "modelIds" : [ 60020 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 620,
+  "definition" : {
+    "id" : 620,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60096 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 621,
+  "definition" : {
+    "id" : 621,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60076 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 622,
+  "definition" : {
+    "id" : 622,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60095 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 623,
+  "definition" : {
+    "id" : 623,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60103 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 624,
+  "definition" : {
+    "id" : 624,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60104 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 625,
+  "definition" : {
+    "id" : 625,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60100 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 626,
+  "definition" : {
+    "id" : 626,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60101 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 627,
+  "definition" : {
+    "id" : 627,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60094 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 628,
+  "definition" : {
+    "id" : 628,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60099 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 629,
+  "definition" : {
+    "id" : 629,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60090 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 630,
+  "definition" : {
+    "id" : 630,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60078 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 631,
+  "definition" : {
+    "id" : 631,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60088 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 632,
+  "definition" : {
+    "id" : 632,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60098 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 633,
+  "definition" : {
+    "id" : 633,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60093 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 634,
+  "definition" : {
+    "id" : 634,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60085 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 635,
+  "definition" : {
+    "id" : 635,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60084 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 636,
+  "definition" : {
+    "id" : 636,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60333 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 637,
+  "definition" : {
+    "id" : 637,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60089 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 638,
+  "definition" : {
+    "id" : 638,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60082 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 639,
+  "definition" : {
+    "id" : 639,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60080 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 640,
+  "definition" : {
+    "id" : 640,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60079 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 641,
+  "definition" : {
+    "id" : 641,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60075 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 642,
+  "definition" : {
+    "id" : 642,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60091 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 643,
+  "definition" : {
+    "id" : 643,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60097 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 644,
+  "definition" : {
+    "id" : 644,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60077 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 645,
+  "definition" : {
+    "id" : 645,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60102 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 646,
+  "definition" : {
+    "id" : 646,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60087 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 647,
+  "definition" : {
+    "id" : 647,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60092 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 648,
+  "definition" : {
+    "id" : 648,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60074 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 649,
+  "definition" : {
+    "id" : 649,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60081 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 650,
+  "definition" : {
+    "id" : 650,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60086 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+}, {
+  "id" : 651,
+  "definition" : {
+    "id" : 651,
+    "bodyPartId" : 5,
+    "modelIds" : [ 60083 ],
+    "originalColours" : null,
+    "modifiedColours" : null,
+    "originalTextureColours" : null,
+    "modifiedTextureColours" : null,
+    "headModels" : [ -1, -1, -1, -1, -1 ]
+  }
+} ]
