@@ -133,14 +133,21 @@ export default function App() {
 
         <div className="flex flex-wrap gap-1 mb-5 border-b border-zinc-800 pb-0">
           {TABS.map((tab) => (
-            <button key={tab.key} onClick={() => handleTabChange(tab.key)}
-              className={`px-3 py-1.5 text-sm rounded-t transition-colors -mb-px border-b-2 ${
-                activeKey === tab.key
-                  ? "text-white border-amber-500 bg-zinc-900"
-                  : "text-zinc-500 border-transparent hover:text-zinc-300 hover:bg-zinc-900"
-              }`}>
-              {tab.label}
-            </button>
+            <div key={tab.key} className="relative group">
+              <button onClick={() => handleTabChange(tab.key)}
+                className={`px-3 py-1.5 text-sm rounded-t transition-colors -mb-px border-b-2 ${
+                  activeKey === tab.key
+                    ? "text-white border-amber-500 bg-zinc-900"
+                    : "text-zinc-500 border-transparent hover:text-zinc-300 hover:bg-zinc-900"
+                }`}>
+                {tab.label}
+              </button>
+              {tab.desc && (
+                <div className="pointer-events-none absolute left-0 top-full mt-2 z-50 w-64 rounded-lg px-3 py-2 text-xs text-zinc-300 bg-zinc-800 border border-zinc-700 shadow-xl opacity-0 group-hover:opacity-100 transition-opacity duration-150">
+                  {tab.desc}
+                </div>
+              )}
+            </div>
           ))}
         </div>
 

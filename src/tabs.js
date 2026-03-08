@@ -1,6 +1,7 @@
 // Each tab defines:
 //   key        — unique id
 //   label      — display name
+//   desc       — tooltip shown on hover
 //   file       — dynamic JSON import
 //   toRows(data) — converts raw JSON to flat array of rows
 //   columns    — [{ key, label }] shown in table
@@ -10,18 +11,18 @@
 
 export const TABS = [
   {
-    // Custom component: Items.jsx
     key: "items",
     label: "Items",
+    desc: "Search all items in the game — weapons, armour, consumables and more. Shows combat bonuses, equip requirements, GE price, examine text and special attack info.",
     file: () => Promise.resolve({ default: [] }),
     toRows: () => [],
     columns: [],
     searchKeys: [],
   },
   {
-    // Custom component: Npcs.jsx
     key: "npcs",
     label: "NPCs",
+    desc: "Search all NPCs (non-player characters) — monsters, quest characters, and bosses. Shows combat stats, attack style, max hits, slayer info and drop table key.",
     file: () => Promise.resolve({ default: [] }),
     toRows: () => [],
     columns: [],
@@ -30,6 +31,7 @@ export const TABS = [
   {
     key: "objects",
     label: "Objects",
+    desc: "All interactable objects in the game world — doors, chests, trees, rocks, furnaces and anything else you can click on.",
     file: () => import("./data/object_definitions.json"),
     toRows(data) {
       return data.map((obj) => ({
@@ -50,18 +52,18 @@ export const TABS = [
     searchKeys: ["id", "name", "stringId", "options"],
   },
   {
-    // Custom component: DropTable.jsx
     key: "drop_tables",
     label: "Drop Tables",
+    desc: "Look up what items any NPC drops when killed, with exact drop rates. Groups drops by type — always drops, main table, rare drop table, herb table, seed table and more.",
     file: () => Promise.resolve({ default: [] }),
     toRows: () => [],
     columns: [],
     searchKeys: [],
   },
   {
-    // Custom component: Enums.jsx
     key: "enums",
     label: "Enums",
+    desc: "Enums are lookup tables used by the client to map one value to another — for example mapping an item ID to a config value, or a string key to a number. Used heavily in interfaces and scripts.",
     file: () => Promise.resolve({ default: [] }),
     toRows: () => [],
     columns: [],
@@ -70,6 +72,7 @@ export const TABS = [
   {
     key: "identity_kits",
     label: "Identity Kits",
+    desc: "The models used for character customisation — hair styles, beards, torso shapes, arms, legs and feet for both male and female characters.",
     file: () => import("./data/identity_kit_definitions.json"),
     toRows(data) {
       const BODY_PARTS = {0:"Hair",1:"Beard",2:"Torso",3:"Arms",4:"Hands",5:"Legs",6:"Feet",7:"Female Hair",8:"Female Torso",9:"Female Arms",10:"Female Hands",11:"Female Legs",12:"Female Feet",13:"Female Beard"};
@@ -96,6 +99,7 @@ export const TABS = [
   {
     key: "inventories",
     label: "Inventories",
+    desc: "Inventory container definitions — the backpack, bank, worn equipment, and other containers used to hold items.",
     file: () => import("./data/inventory_definitions.json"),
     toRows(data) {
       return data.map((inv) => ({
@@ -114,9 +118,9 @@ export const TABS = [
     searchKeys: ["id", "stringId"],
   },
   {
-    // Custom component: WorldMaps.jsx (combines World Maps + World Map Info)
     key: "world_maps",
     label: "World Maps",
+    desc: "World map region definitions — the areas shown on the in-game world map, including their coordinates, sections and any conditions required to display them.",
     file: () => Promise.resolve({ default: [] }),
     toRows: () => [],
     columns: [],
@@ -125,6 +129,7 @@ export const TABS = [
   {
     key: "structs",
     label: "Structs",
+    desc: "Structs are generic data containers used by the cache to attach extra parameters to game entities. Often used to store config values referenced by client scripts.",
     file: () => import("./data/struct_definitions.json"),
     toRows(data) {
       return data.map((e) => {
@@ -144,18 +149,18 @@ export const TABS = [
     searchKeys: ["id", "stringId"],
   },
   {
-    // Custom component: VarbitVarp.jsx (combines both)
     key: "varbits_varps",
     label: "Varbits / Varps",
+    desc: "Variables stored on the player. Varps (variable player) are the raw storage slots. Varbits are sub-divisions of a varp, reading specific bits. Used to track quests, settings, unlocks and game state.",
     file: () => Promise.resolve({ default: [] }),
     toRows: () => [],
     columns: [],
     searchKeys: [],
   },
   {
-    // Custom component: ClientScripts.jsx
     key: "client_scripts",
     label: "Client Scripts",
+    desc: "CS2 scripts — small programs run by the client to control interfaces, animations and game logic. Searchable by ID or by text strings found inside the script.",
     file: () => Promise.resolve({ default: [] }),
     toRows: () => [],
     columns: [],
@@ -164,6 +169,7 @@ export const TABS = [
   {
     key: "graphics",
     label: "Graphics",
+    desc: "Graphic (spot anim) definitions — the visual effects played in the game world like spell impacts, skill level-ups, fire, smoke and other particle effects.",
     file: () => import("./data/graphic_definitions.json"),
     toRows(data) {
       const arr = Array.isArray(data) ? data : Object.values(data);
@@ -189,6 +195,7 @@ export const TABS = [
   {
     key: "render_anims",
     label: "Render Anims",
+    desc: "Render animation sets — the collection of animations assigned to an NPC or player for idle, walking, running, turning and strafing. Each row is a full movement animation set.",
     file: () => import("./data/render_animation_definitions.json"),
     toRows(data) {
       const arr = Array.isArray(data) ? data : Object.values(data);
@@ -218,9 +225,9 @@ export const TABS = [
     searchKeys: ["id", "primaryIdle", "primaryWalk", "run"],
   },
   {
-    // Custom component: Skeletons.jsx
     key: "skeletons",
     label: "Skeletons",
+    desc: "Animation skeleton definitions — the bone structures that animations are applied to. Shows which NPCs share a skeleton and what animations and graphics are attached to it.",
     file: () => Promise.resolve({ default: [] }),
     toRows: () => [],
     columns: [],
