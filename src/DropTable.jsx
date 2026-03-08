@@ -1,7 +1,8 @@
 import { useState, useMemo } from "react";
 import itemsRaw from "./data/item_definitions.json";
 import npcsRaw from "./data/npc_definitions.json";
-import dropTablesRaw from "./data/drop_tables.json";
+import dropTablesRawFile from "./data/drop_tables.json";
+const dropTablesRaw = dropTablesRawFile.tables ?? dropTablesRawFile;
 
 /* ------------------------------------------------ */
 /* ITEM LOOKUP                                      */
