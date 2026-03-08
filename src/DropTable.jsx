@@ -30,57 +30,72 @@ npcList.sort((a, b) => a.name.localeCompare(b.name));
 // For "All" tables: every entry always happens (prob unchanged)
 // Chain multiplications through nested tables.
 function flattenTable(node, cumProb = 1.0, depth = 0) {
-  if (depth > 15) return [];
+  if (!node || depth > 15) return [];
+
   const results = [];
+  const tableType = node.type ?? "First";
+  const roll = node.roll ?? 1;
 
-  if (node.drops) {
-    const tableType = node.type ?? "All";
-    const roll = node.roll ?? 1;
+  let count = 0;
 
-    for (const drop of node.drops) {
-      const dropChance = drop.chance ?? 1;
+  for (const drop of node.drops ?? []) {
+    const chance = drop.chance ?? 0;
+    if (chance <= 0) continue;
 
-      // Probability of this specific drop entry being reached from parent
-      const childProb = tableType === "All"
-        ? cumProb                            // All: always happens
-        : cumProb * (dropChance / roll);     // First: fraction of parent roll
+    const start = count;
+    const end = count + chance;
+    count = end;
 
-      if (drop.drops) {
-        // Inline sub-table (e.g. rare_drop_table embedded directly)
-        results.push(...flattenTable(drop, childProb, depth + 1));
-      } else if (drop.id != null) {
-        const sid = drop.id;
+    // Probability window within the roll range
+    const window = Math.max(0, Math.min(end, roll) - start);
+    const prob = tableType === "All" ? 1 : window / roll;
 
-        // Skip "nothing" entries
-        if (sid === "nothing") continue;
+    if (prob <= 0) continue;
 
-        // Check if this ID is a named sub-table reference
-        const asTableKey = sid.endsWith("_drop_table") ? sid : sid + "_drop_table";
-        if (dropTablesRaw[asTableKey]) {
-          results.push(...flattenTable(dropTablesRaw[asTableKey], childProb, depth + 1));
-          continue;
-        }
-        if (dropTablesRaw[sid]) {
-          results.push(...flattenTable(dropTablesRaw[sid], childProb, depth + 1));
-          continue;
-        }
+    const childProb = cumProb * prob;
 
-        // It's a real item
-        const item = itemByStringId[sid];
-        const amt = drop.amount ?? {};
-        const noted = sid.endsWith("_noted");
+    // Inline sub-table
+    if (drop.drops) {
+      results.push(...flattenTable(drop, childProb, depth + 1));
+      continue;
+    }
 
-        results.push({
-          stringId: sid,
-          name: item?.name ?? sid,
-          examine: item?.extras?.examine ?? "",
-          price: item?.extras?.price ?? 0,
-          amountMin: amt.start ?? 1,
-          amountMax: amt.end ?? 1,
-          prob: childProb,  // true cumulative probability
-          noted,
-        });
+    if (drop.id != null) {
+      const sid = drop.id;
+
+      // Skip nothing entries
+      if (sid === "nothing") continue;
+
+      // Check for referenced drop tables
+      const asTableKey = sid.endsWith("_drop_table")
+        ? sid
+        : sid + "_drop_table";
+
+      if (dropTablesRaw[asTableKey]) {
+        results.push(...flattenTable(dropTablesRaw[asTableKey], childProb, depth + 1));
+        continue;
       }
+
+      if (dropTablesRaw[sid]) {
+        results.push(...flattenTable(dropTablesRaw[sid], childProb, depth + 1));
+        continue;
+      }
+
+      // Real item
+      const item = itemByStringId[sid];
+      const amt = drop.amount ?? {};
+      const noted = sid.endsWith("_noted");
+
+      results.push({
+        stringId: sid,
+        name: item?.name ?? sid,
+        examine: item?.extras?.examine ?? "",
+        price: item?.extras?.price ?? 0,
+        amountMin: amt.start ?? 1,
+        amountMax: amt.end ?? 1,
+        prob: childProb,
+        noted,
+      });
     }
   }
 
