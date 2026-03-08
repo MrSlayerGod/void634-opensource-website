@@ -204,35 +204,35 @@ export default function DropTable() {
             <span className="text-xs text-zinc-600">{drops.length} drops</span>
           </div>
 
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm border-collapse">
+          <div className="overflow-x-auto border border-zinc-700 rounded bg-zinc-900">
+            <table className="w-full text-sm border-collapse bg-zinc-900">
               <thead>
-                <tr className="border-b border-zinc-800">
+                <tr className="bg-zinc-800 border-b border-zinc-700">
                   {["Item", "Amount", "Rarity", "Price"].map((h) => (
-                    <th key={h} className="text-left pb-2 pr-6 text-zinc-500 font-normal text-xs uppercase tracking-wider whitespace-nowrap">{h}</th>
+                    <th key={h} className="px-3 py-2 text-left text-xs font-semibold text-zinc-300 whitespace-nowrap">{h}</th>
                   ))}
                 </tr>
               </thead>
               <tbody>
                 {drops.map((drop, i) => (
-                  <tr key={i} className="border-b border-zinc-900 hover:bg-zinc-900 transition-colors">
-                    <td className="py-1.5 pr-6 text-zinc-100 whitespace-nowrap">
+                  <tr key={i} className="border-t border-zinc-800 hover:bg-zinc-800 transition-colors">
+                    <td className="px-3 py-2 text-zinc-100 whitespace-nowrap">
                       {drop.name}
                       {drop.noted && <span className="ml-1 text-xs text-zinc-500">(noted)</span>}
                       {drop.examine && (
                         <span className="ml-2 text-zinc-600 text-xs italic">{drop.examine}</span>
                       )}
                     </td>
-                    <td className="py-1.5 pr-6 text-zinc-400 whitespace-nowrap">
+                    <td className="px-3 py-2 text-zinc-400 whitespace-nowrap">
                       {drop.amountMin === drop.amountMax
                         ? drop.amountMin
                         : `${drop.amountMin}–${drop.amountMax}`}
                     </td>
-                    <td className="py-1.5 pr-6 whitespace-nowrap font-mono text-xs"
+                    <td className="px-3 py-2 whitespace-nowrap font-mono text-xs"
                       style={{ color: rarityColor(drop.prob) }}>
                       {rarityLabel(drop.prob)}
                     </td>
-                    <td className="py-1.5 text-zinc-500 whitespace-nowrap text-xs">
+                    <td className="px-3 py-2 text-zinc-500 whitespace-nowrap text-xs">
                       {formatGp(drop.price)}
                     </td>
                   </tr>
