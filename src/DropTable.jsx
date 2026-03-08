@@ -9,7 +9,7 @@ for (const item of itemsRaw) {
   if (item.stringId) itemByStringId[item.stringId] = item;
 }
 
-// NPC list with valid drop tables (deduplicated by name, keep unique names)
+// NPC list with valid drop tables
 const npcList = [];
 const seenNames = new Set();
 for (const npc of npcsRaw) {
@@ -24,65 +24,88 @@ for (const npc of npcsRaw) {
 }
 npcList.sort((a, b) => a.name.localeCompare(b.name));
 
-// ── flatten drop table recursively ───────────────────────────────────────────
-function flattenTable(node, parentRoll = 1, parentType = "All", depth = 0) {
-  if (depth > 12) return [];
+// ── flatten drop table with CORRECT cumulative probability ────────────────────
+// Each drop's displayed rarity = probability of it dropping on a single kill.
+// For "First" tables: prob of a specific entry = entry.chance / table.roll
+// For "All" tables: every entry always happens (prob unchanged)
+// Chain multiplications through nested tables.
+function flattenTable(node, cumProb = 1.0, depth = 0) {
+  if (depth > 15) return [];
   const results = [];
 
   if (node.drops) {
+    const tableType = node.type ?? "All";
     const roll = node.roll ?? 1;
-    const type = node.type ?? "All";
+
     for (const drop of node.drops) {
-      results.push(...flattenTable(drop, roll, type, depth + 1));
+      const dropChance = drop.chance ?? 1;
+
+      // Probability of this specific drop entry being reached from parent
+      const childProb = tableType === "All"
+        ? cumProb                            // All: always happens
+        : cumProb * (dropChance / roll);     // First: fraction of parent roll
+
+      if (drop.drops) {
+        // Inline sub-table (e.g. rare_drop_table embedded directly)
+        results.push(...flattenTable(drop, childProb, depth + 1));
+      } else if (drop.id != null) {
+        const sid = drop.id;
+
+        // Skip "nothing" entries
+        if (sid === "nothing") continue;
+
+        // Check if this ID is a named sub-table reference
+        const asTableKey = sid.endsWith("_drop_table") ? sid : sid + "_drop_table";
+        if (dropTablesRaw[asTableKey]) {
+          results.push(...flattenTable(dropTablesRaw[asTableKey], childProb, depth + 1));
+          continue;
+        }
+        if (dropTablesRaw[sid]) {
+          results.push(...flattenTable(dropTablesRaw[sid], childProb, depth + 1));
+          continue;
+        }
+
+        // It's a real item
+        const item = itemByStringId[sid];
+        const amt = drop.amount ?? {};
+        const noted = sid.endsWith("_noted");
+
+        results.push({
+          stringId: sid,
+          name: item?.name ?? sid,
+          examine: item?.extras?.examine ?? "",
+          price: item?.extras?.price ?? 0,
+          amountMin: amt.start ?? 1,
+          amountMax: amt.end ?? 1,
+          prob: childProb,  // true cumulative probability
+          noted,
+        });
+      }
     }
-  } else if (node.id != null) {
-    const sid = node.id;
-    // sub-table reference
-    if (dropTablesRaw[sid]) {
-      results.push(...flattenTable(dropTablesRaw[sid], parentRoll, parentType, depth + 1));
-      return results;
-    }
-    const item = itemByStringId[sid];
-    const amt = node.amount ?? {};
-    const min = amt.start ?? 1;
-    const max = amt.end ?? 1;
-    const chance = node.chance ?? 1;
-    results.push({
-      stringId: sid,
-      name: item?.name ?? sid,
-      examine: item?.extras?.examine ?? "",
-      price: item?.extras?.price ?? 0,
-      amountMin: min,
-      amountMax: max,
-      chance,
-      roll: parentRoll,
-      type: parentType,
-    });
   }
+
   return results;
 }
 
-function rarityLabel(chance, roll) {
-  if (roll <= 1) return "Always";
-  const frac = chance / roll;
-  if (frac >= 1) return "Always";
-  const denom = Math.round(roll / chance);
-  return `1/${denom}`;
+// ── display helpers ───────────────────────────────────────────────────────────
+function rarityLabel(prob) {
+  if (prob >= 1) return "Always";
+  const denom = Math.round(1 / prob);
+  return `1/${denom.toLocaleString()}`;
 }
 
-function rarityColor(chance, roll) {
-  if (roll <= 1 || chance >= roll) return "#22c55e";
-  const frac = chance / roll;
-  if (frac >= 0.1) return "#a3e635";
-  if (frac >= 0.02) return "#facc15";
-  if (frac >= 0.005) return "#fb923c";
+function rarityColor(prob) {
+  if (prob >= 1) return "#22c55e";
+  if (prob >= 0.1) return "#a3e635";
+  if (prob >= 0.02) return "#facc15";
+  if (prob >= 0.005) return "#fb923c";
   return "#f87171";
 }
 
 function formatGp(n) {
   if (!n) return "";
-  if (n >= 1000000) return (n / 1000000).toFixed(1) + "M";
-  if (n >= 1000) return (n / 1000).toFixed(1) + "K";
+  if (n >= 1_000_000) return (n / 1_000_000).toFixed(1) + "M";
+  if (n >= 1_000) return (n / 1_000).toFixed(1) + "K";
   return String(n);
 }
 
@@ -99,7 +122,9 @@ export default function DropTable() {
 
   const drops = useMemo(() => {
     if (!selected) return [];
-    return flattenTable(dropTablesRaw[selected.tableKey]);
+    const raw = flattenTable(dropTablesRaw[selected.tableKey]);
+    // Sort: always first, then by probability desc
+    return raw.sort((a, b) => b.prob - a.prob);
   }, [selected]);
 
   return (
@@ -123,7 +148,15 @@ export default function DropTable() {
         )}
       </div>
 
-      {/* NPC results list */}
+      {/* Empty state */}
+      {!query.trim() && !selected && (
+        <div className="py-20 text-center">
+          <div className="text-zinc-600 text-sm">Search an NPC to view their drop table</div>
+          <div className="text-zinc-700 text-xs mt-1">{npcList.length.toLocaleString()} NPCs with drop tables</div>
+        </div>
+      )}
+
+      {/* NPC buttons */}
       {!selected && query.trim() && (
         <div className="mb-4">
           {filtered.length === 0 ? (
@@ -141,14 +174,6 @@ export default function DropTable() {
               ))}
             </div>
           )}
-        </div>
-      )}
-
-      {/* Empty state */}
-      {!query.trim() && (
-        <div className="py-20 text-center">
-          <div className="text-zinc-600 text-sm">Search an NPC to view their drop table</div>
-          <div className="text-zinc-700 text-xs mt-1">{npcList.length.toLocaleString()} NPCs with drop tables</div>
         </div>
       )}
 
@@ -178,6 +203,7 @@ export default function DropTable() {
                   <tr key={i} className="border-b border-zinc-900 hover:bg-zinc-900 transition-colors">
                     <td className="py-1.5 pr-6 text-zinc-100 whitespace-nowrap">
                       {drop.name}
+                      {drop.noted && <span className="ml-1 text-xs text-zinc-500">(noted)</span>}
                       {drop.examine && (
                         <span className="ml-2 text-zinc-600 text-xs italic">{drop.examine}</span>
                       )}
@@ -188,8 +214,8 @@ export default function DropTable() {
                         : `${drop.amountMin}–${drop.amountMax}`}
                     </td>
                     <td className="py-1.5 pr-6 whitespace-nowrap font-mono text-xs"
-                      style={{ color: rarityColor(drop.chance, drop.roll) }}>
-                      {rarityLabel(drop.chance, drop.roll)}
+                      style={{ color: rarityColor(drop.prob) }}>
+                      {rarityLabel(drop.prob)}
                     </td>
                     <td className="py-1.5 text-zinc-500 whitespace-nowrap text-xs">
                       {formatGp(drop.price)}
