@@ -5,6 +5,8 @@
 //   toRows(data) — converts raw JSON to flat array of rows
 //   columns    — [{ key, label }] shown in table
 //   searchKeys — fields searched against query
+//
+// Tabs with key in CUSTOM_TABS (App.jsx) skip the generic search and render their own component.
 
 export const TABS = [
   {
@@ -74,7 +76,7 @@ export const TABS = [
     searchKeys: ["id", "name", "stringId", "options"],
   },
   {
-    // Rendered by <DropTable /> component in App.jsx — not the generic search table
+    // Custom component: DropTable.jsx
     key: "drop_tables",
     label: "Drop Tables",
     file: () => Promise.resolve({ default: [] }),
@@ -224,62 +226,22 @@ export const TABS = [
     searchKeys: ["id", "stringId"],
   },
   {
-    key: "varbits",
-    label: "Varbits",
-    file: () => import("./data/varbit_definitions.json"),
-    toRows(data) {
-      const arr = Array.isArray(data) ? data : Object.values(data);
-      return arr.map((v) => ({
-        id: v.id,
-        index: v.index ?? "",
-        startBit: v.startBit ?? "",
-        endBit: v.endBit ?? "",
-      }));
-    },
-    columns: [
-      { key: "id", label: "ID" },
-      { key: "index", label: "Varp Index" },
-      { key: "startBit", label: "Start Bit" },
-      { key: "endBit", label: "End Bit" },
-    ],
-    searchKeys: ["id", "index"],
+    // Custom component: VarbitVarp.jsx (combines both)
+    key: "varbits_varps",
+    label: "Varbits / Varps",
+    file: () => Promise.resolve({ default: [] }),
+    toRows: () => [],
+    columns: [],
+    searchKeys: [],
   },
   {
-    key: "varps",
-    label: "Varps",
-    file: () => import("./data/varp_definitions.json"),
-    toRows(data) {
-      const arr = Array.isArray(data) ? data : Object.values(data);
-      return arr.map((v) => ({
-        id: v.id,
-        type: v.type ?? "",
-      }));
-    },
-    columns: [
-      { key: "id", label: "ID" },
-      { key: "type", label: "Type" },
-    ],
-    searchKeys: ["id", "type"],
-  },
-  {
+    // Custom component: ClientScripts.jsx
     key: "client_scripts",
     label: "Client Scripts",
-    file: () => import("./data/client_scripts.json"),
-    toRows(data) {
-      return data.map((cs) => ({
-        id: cs.id,
-        instructionCount: cs.instructions?.length ?? 0,
-        intOperands: cs.intOperands?.length ?? 0,
-        stringOperands: cs.stringOperands?.length ?? 0,
-      }));
-    },
-    columns: [
-      { key: "id", label: "ID" },
-      { key: "instructionCount", label: "Instructions" },
-      { key: "intOperands", label: "Int Operands" },
-      { key: "stringOperands", label: "String Operands" },
-    ],
-    searchKeys: ["id"],
+    file: () => Promise.resolve({ default: [] }),
+    toRows: () => [],
+    columns: [],
+    searchKeys: [],
   },
   {
     key: "graphics",
@@ -330,30 +292,12 @@ export const TABS = [
     searchKeys: ["id", "primaryIdle", "primaryWalk"],
   },
   {
+    // Custom component: Skeletons.jsx
     key: "skeletons",
     label: "Skeletons",
-    file: () => import("./data/animation_skeletons.json"),
-    toRows(data) {
-      return data.map((s) => ({
-        id: s.id,
-        animCount: s.anims?.length ?? 0,
-        npcCount: s.npcs?.length ?? 0,
-        graphicCount: s.graphics?.length ?? 0,
-        objectCount: s.objects?.length ?? 0,
-        npcNames: (s.npcs || [])
-          .slice(0, 3)
-          .map((n) => n.name)
-          .join(", "),
-      }));
-    },
-    columns: [
-      { key: "id", label: "ID" },
-      { key: "animCount", label: "Anims" },
-      { key: "npcCount", label: "NPCs" },
-      { key: "graphicCount", label: "Graphics" },
-      { key: "objectCount", label: "Objects" },
-      { key: "npcNames", label: "NPC Names (sample)" },
-    ],
-    searchKeys: ["id", "npcNames"],
+    file: () => Promise.resolve({ default: [] }),
+    toRows: () => [],
+    columns: [],
+    searchKeys: [],
   },
 ];
