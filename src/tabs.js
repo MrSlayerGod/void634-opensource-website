@@ -74,30 +74,13 @@ export const TABS = [
     searchKeys: ["id", "name", "stringId", "options"],
   },
   {
+    // Rendered by <DropTable /> component in App.jsx — not the generic search table
     key: "drop_tables",
     label: "Drop Tables",
-    file: () => import("./data/drop_tables.json"),
-    toRows(data) {
-      // data is object keyed by string id
-      return Object.entries(data).map(([key, table]) => ({
-        id: key,
-        type: table.type || "",
-        roll: table.roll ?? "",
-        dropCount: table.drops?.length ?? 0,
-        drops: (table.drops || [])
-          .slice(0, 4)
-          .map((d) => d.id)
-          .join(", "),
-      }));
-    },
-    columns: [
-      { key: "id", label: "Table ID" },
-      { key: "type", label: "Type" },
-      { key: "roll", label: "Roll" },
-      { key: "dropCount", label: "# Drops" },
-      { key: "drops", label: "Drops (sample)" },
-    ],
-    searchKeys: ["id", "type", "drops"],
+    file: () => Promise.resolve({ default: [] }),
+    toRows: () => [],
+    columns: [],
+    searchKeys: [],
   },
   {
     key: "enums",

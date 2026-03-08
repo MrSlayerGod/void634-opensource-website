@@ -1,6 +1,7 @@
 import { useState, useCallback } from "react";
 import { TABS } from "./tabs.js";
 import { useSearch } from "./useSearch.js";
+import DropTable from "./DropTable.jsx";
 
 function SearchBar({ value, onChange }) {
   return (
@@ -165,6 +166,8 @@ export default function App() {
             Open source RuneScape · Revision 634 cache definitions
           </p>
         </div>
+
+        {/* Tab bar */}
         <div className="flex flex-wrap gap-1 mb-5 border-b border-zinc-800 pb-0">
           {TABS.map((tab) => (
             <button
@@ -180,8 +183,16 @@ export default function App() {
             </button>
           ))}
         </div>
-        <SearchBar value={query} onChange={setQuery} />
-        <TabPanel key={activeKey} tab={activeTab} query={query} />
+
+        {/* Drop Tables tab gets its own component */}
+        {activeKey === "drop_tables" ? (
+          <DropTable />
+        ) : (
+          <>
+            <SearchBar value={query} onChange={setQuery} />
+            <TabPanel key={activeKey} tab={activeTab} query={query} />
+          </>
+        )}
       </div>
     </div>
   );
